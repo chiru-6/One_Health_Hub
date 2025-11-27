@@ -34,4 +34,4 @@ One Health Hub is a full-stack healthcare web application built during the **Adv
 ### Clone the Repository
 
 ```bash
-git https://github.com/chiru-6/One_Health_Hub.git
+git clone https://github.com/chiru-6/One_Health_Hub.git
