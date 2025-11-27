@@ -1,0 +1,4287 @@
+{
+  "diseases": [
+    {
+      "name": "Myocardial Infarction",
+      "description": "A condition characterized by the death of heart muscle due to lack of blood supply.",
+      "symptoms": [
+        "Severe retrosternal chest pain that can radiate to neck, jaw, epigastrium or left arm",
+        "Rapid, weak pulse",
+        "Profuse sweating (diaphoresis)",
+        "Dyspnea due to impaired contraction of the ischemic myocardium and resultant pulmonary edema"
+      ],
+      "diagnosis": [
+        "Clinical symptoms",
+        "Electrocardiographic changes (e.g., inverted T waves, elevated ST segments, Q waves)",
+        "Laboratory findings (e.g., elevated serum CK-MB and cardiac troponins)"
+      ],
+      "treatment": [
+        "Reperfusion by thrombolytic drugs, angioplasty/stent placement, or coronary artery bypass graft (CABG) surgery"
+      ],
+      "complications": [
+        "Left ventricular failure and cardiogenic shock",
+        "Arrhythmias",
+        "Myocardial rupture",
+        "Dilatation of ventricular chamber",
+        "Ventricular aneurysm",
+        "Mural thrombus",
+        "Pericarditis",
+        "Extension of infarct",
+        "Infarction of right ventricle",
+        "Progressive late heart failure"
+      ],
+      "morphological_changes": [
+        {
+          "duration": "0-1/2 hour",
+          "gross_changes": "None",
+          "light_microscopic_changes": "None (electron microscope: relaxation of myofibrils; loss of glycogen and swelling of mitochondria)"
+        },
+        {
+          "duration": "1/2-6 hours",
+          "gross_changes": "None",
+          "light_microscopic_changes": "Usually no changes but may show waviness of fibers at border (electron microscopy: mitochondrial amorphous densities)"
+        },
+        {
+          "duration": "6-12 hours",
+          "gross_changes": "Dark mottling",
+          "light_microscopic_changes": "Early coagulative necrosis"
+        },
+        {
+          "duration": "12-24 hours",
+          "gross_changes": "Dark mottling",
+          "light_microscopic_changes": "Coagulative necrosis; pyknotic nuclei; increased eosinophilia of cytoplasm; contraction band necrosis at margins; beginning of neutrophilic infiltrate"
+        },
+        {
+          "duration": "1-3 days",
+          "gross_changes": "Mottling with yellow-tan center",
+          "light_microscopic_changes": "Coagulation necrosis, loss of nuclei and striations; increased interstitial infiltration of neutrophils"
+        },
+        {
+          "duration": "3-7 days",
+          "gross_changes": "Hyperemic border; central yellow-tan",
+          "light_microscopic_changes": "Disintegration of dead myocardial cells, with disintegrating neutrophils; phagocytosis of dead cells by macrophages at the border of infarct"
+        },
+        {
+          "duration": "7-10 days",
+          "gross_changes": "Maximally yellow-tan and soft",
+          "light_microscopic_changes": "Phagocytosis of dead cells; formation of granulation tissue at margins"
+        },
+        {
+          "duration": "10-14 days",
+          "gross_changes": "Red-gray depressed infarct borders",
+          "light_microscopic_changes": "Well-established granulation tissue and collagen deposition"
+        },
+        {
+          "duration": "2-8 weeks",
+          "gross_changes": "Gray-white scar, progressive from border toward the center of the infarct",
+          "light_microscopic_changes": "Increased collagen deposition and decreased cellularity"
+        },
+        {
+          "duration": ">2 months",
+          "gross_changes": "Scarring complete",
+          "light_microscopic_changes": "Dense collagenous scar tissue"
+        }
+      ]
+    },
+    {
+      "name": "Infective Endocarditis",
+      "description": "An infection, usually bacterial, of the endocardium of heart valves or the mural endocardium.",
+      "causative_organisms": [
+        "Staphylococcus aureus",
+        "Streptococcus viridans",
+        "Coagulase-negative staphylococci (e.g., S. epidermidis)",
+        "HACEK group (Haemophilus, Actinobacillus, Cardiobacterium, Eikenella, and Kingella)",
+        "Enterococci",
+        "Gram-negative bacilli",
+        "Fungi"
+      ],
+      "symptoms": [
+        "Fever",
+        "Clinical features of acute infection or complications depending on the type of endocarditis"
+      ],
+      "diagnosis": [
+        "Blood culture",
+        "Echocardiographic identification of a valve-related or implant-related mass or abscess",
+        "New valvular regurgitation"
+      ],
+      "treatment": [
+        "Antibiotics based on the identified organism"
+      ],
+      "complications": [
+        "Ring abscess",
+        "Perforation and rupture",
+        "Myocardial abscess",
+        "Suppurative pericarditis",
+        "Valvular dysfunction (stenosis or insufficiency)",
+        "Embolic complications (septic emboli)",
+        "Immunological phenomena (e.g., focal segmental glomerulonephritis, Osler nodes, Roth spots)"
+      ],
+      "classification": [
+        {
+          "type": "Acute Infective Endocarditis",
+          "features": [
+            "Acute in onset",
+            "Infection of normal heart/cardiac valve",
+            "Caused by highly virulent organisms (e.g., Staphylococcus aureus, S. pyogenes)",
+            "Affected valve is rapidly destroyed",
+            "Death within 6 weeks in many patients due to complications like acute heart failure or overwhelming sepsis"
+          ]
+        },
+        {
+          "type": "Subacute Infective Endocarditis",
+          "features": [
+            "Insidious in onset",
+            "Involves structurally abnormal/deformed valves (e.g., rheumatic heart disease or congenital heart disease)",
+            "Caused by organisms of lower virulence (e.g., Streptococcus viridans, Staphylococcus epidermidis)",
+            "Less destructive lesions",
+            "Protracted course of weeks to months",
+            "Infectious complications are uncommon"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rheumatic Fever",
+      "description": "An acute, post-streptococcal, immune-mediated, multisystem inflammatory disease.",
+      "symptoms": [
+        "Migratory polyarthritis",
+        "Subcutaneous nodules",
+        "Erythema marginatum",
+        "Sydenham's chorea (Saint Vitus' dance)",
+        "Fever",
+        "Carditis (e.g., pericardial friction rubs, weak heart sounds, tachycardia, arrhythmias, murmurs)"
+      ],
+      "diagnosis": [
+        "Jones criteria (presence of two major criteria or one major and two minor criteria)",
+        "Pharyngeal cultures for streptococci",
+        "Antibodies to streptococcal enzymes (e.g., ASO, DNase B, antihyaluronidase)",
+        "Raised ESR and C-reactive protein"
+      ],
+      "treatment": [
+        "Anti-inflammatory medications",
+        "Antibiotics for streptococcal infection"
+      ],
+      "complications": [
+        "Infective endocarditis",
+        "Mural thrombi",
+        "Thromboemboli",
+        "Congestive heart failure",
+        "Adhesive pericarditis",
+        "Arrhythmias (particularly atrial fibrillation)"
+      ]
+    },
+    {
+      "name": "Rheumatic Heart Disease",
+      "description": "A post-streptococcal disease in which antistreptococcal antibodies cross-react with cardiac tissues.",
+      "symptoms": [
+        "Mitral regurgitation during acute stage",
+        "Mitral stenosis during chronic stage",
+        "Dyspnea and hemoptysis with rust-colored sputum (heart failure cells)"
+      ],
+      "diagnosis": [
+        "Clinical findings (e.g., murmurs, signs of heart failure)",
+        "Echocardiography"
+      ],
+      "treatment": [
+        "Medications for heart failure and arrhythmias",
+        "Surgical repair or prosthetic replacement of diseased valves"
+      ],
+      "complications": [
+        "Infective endocarditis",
+        "Mural thrombi",
+        "Thromboemboli",
+        "Congestive heart failure",
+        "Adhesive pericarditis",
+        "Arrhythmias (particularly atrial fibrillation)"
+      ]
+    },
+    {
+      "name": "Congenital Heart Disease",
+      "description": "Abnormalities of the heart or great vessels that are present from birth.",
+      "types": [
+        "Atrial Septal Defect (ASD)",
+        "Ventricular Septal Defect (VSD)",
+        "Patent Ductus Arteriosus (PDA)",
+        "Tetralogy of Fallot",
+        "Transposition of the Great Arteries",
+        "Coarctation of the Aorta"
+      ],
+      "symptoms": [
+        "Depends on the specific defect and its severity"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Echocardiography",
+        "Cardiac catheterization"
+      ],
+      "treatment": [
+        "Medical management",
+        "Surgical repair"
+      ],
+      "complications": [
+        "Heart failure",
+        "Pulmonary hypertension",
+        "Arrhythmias",
+        "Sudden cardiac death"
+      ]
+    },
+    {
+      "name": "Cardiomyopathy",
+      "description": "A group of diseases of the myocardium that affect the mechanical or electrical function of the heart.",
+      "types": [
+        "Dilated Cardiomyopathy",
+        "Hypertrophic Cardiomyopathy",
+        "Restrictive Cardiomyopathy"
+      ],
+      "symptoms": [
+        "Depends on the type and severity"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Echocardiography",
+        "Cardiac MRI"
+      ],
+      "treatment": [
+        "Medications",
+        "Implantable devices",
+        "Heart transplant"
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ]
+    },
+    {
+      "name": "Cardiac Myxoma",
+      "description": "A benign tumor arising from primitive multipotent mesenchymal cells, most commonly found in the left atrium.",
+      "symptoms": [
+        "Depends on the size and location of the tumor",
+        "May include valvular obstruction, embolization, or constitutional symptoms"
+      ],
+      "diagnosis": [
+        "Echocardiography",
+        "Cardiac MRI"
+      ],
+      "treatment": [
+        "Surgical removal"
+      ]
+    },
+    {
+      "name": "Emphysema",
+      "description": "A chronic obstructive airway disease characterized by permanent dilatation of air spaces distal to terminal bronchioles.",
+      "types": [
+        "Centriacinar Emphysema",
+        "Panacinar Emphysema",
+        "Paraseptal Emphysema",
+        "Irregular Emphysema"
+      ],
+      "symptoms": [
+        "Dyspnea",
+        "Cough",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Pulmonary function tests",
+        "Chest X-ray or CT scan"
+      ],
+      "treatment": [
+        "Bronchodilators",
+        "Smoking cessation",
+        "Pulmonary rehabilitation"
+      ],
+      "complications": [
+        "Cor pulmonale",
+        "Pneumothorax"
+      ]
+    },
+    {
+      "name": "Chronic Bronchitis",
+      "description": "A chronic inflammatory disease of the airways characterized by persistent cough with sputum production.",
+      "symptoms": [
+        "Persistent productive cough",
+        "Dyspnea",
+        "Wheezing"
+      ],
+      "diagnosis": [
+        "Clinical history and examination",
+        "Pulmonary function tests",
+        "Chest X-ray"
+      ],
+      "treatment": [
+        "Bronchodilators",
+        "Anti-inflammatory medications",
+        "Smoking cessation"
+      ],
+      "complications": [
+        "Chronic obstructive pulmonary disease (COPD)",
+        "Cor pulmonale",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "description": "A chronic inflammatory disorder of the bronchial tree characterized by reversible bronchoconstriction in response to various stimuli.",
+      "types": [
+        "Atopic Asthma",
+        "Non-atopic Asthma",
+        "Drug-induced Asthma",
+        "Occupational Asthma"
+      ],
+      "symptoms": [
+        "Recurrent episodes of wheezing",
+        "Breathlessness",
+        "Tightness of the chest",
+        "Cough"
+      ],
+      "diagnosis": [
+        "Clinical history and examination",
+        "Pulmonary function tests",
+        "Allergy testing"
+      ],
+      "treatment": [
+        "Bronchodilators",
+        "Anti-inflammatory medications",
+        "Avoidance of triggers"
+      ],
+      "complications": [
+        "Status asthmaticus",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Bronchiectasis",
+      "description": "A disorder characterized by irreversible, abnormal dilation of bronchi and bronchioles.",
+      "types": [
+        "Nonobstructive Bronchiectasis",
+        "Obstructive Bronchiectasis"
+      ],
+      "symptoms": [
+        "Severe persistent productive cough",
+        "Foul-smelling, sometimes bloody sputum",
+        "Dyspnea",
+        "Orthopnea"
+      ],
+      "diagnosis": [
+        "Clinical history and examination",
+        "Chest X-ray or CT scan",
+        "Pulmonary function tests"
+      ],
+      "treatment": [
+        "Antibiotics for infections",
+        "Chest physiotherapy",
+        "Bronchodilators"
+      ],
+      "complications": [
+        "Lung abscess",
+        "Pneumonia",
+        "Empyema",
+        "Septicemia",
+        "Meningitis",
+        "Metastatic abscesses",
+        "Cor pulmonale",
+        "Generalized amyloidosis"
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "description": "An infection of the lung parenchyma that can be caused by bacteria, viruses, or fungi.",
+      "types": [
+        "Community-Acquired Pneumonia",
+        "Hospital-Acquired Pneumonia"
+      ],
+      "causative_organisms": [
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae",
+        "Moraxella catarrhalis",
+        "Staphylococcus aureus",
+        "Enterobacteriaceae (e.g., Klebsiella pneumoniae)",
+        "Pseudomonas aeruginosa",
+        "Legionella pneumophila",
+        "Influenza virus",
+        "Respiratory syncytial virus",
+        "Human metapneumovirus",
+        "Adenovirus",
+        "Rhinovirus",
+        "Rubeola virus",
+        "Varicella virus"
+      ],
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Shortness of breath",
+        "Chest pain",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Chest X-ray",
+        "Sputum culture",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Antiviral medications",
+        "Supportive care"
+      ],
+      "complications": [
+        "Lung abscess",
+        "Empyema",
+        "Pleural effusion",
+        "Respiratory failure",
+        "Sepsis"
+      ]
+    },
+    {
+      "name": "Pneumocystis Pneumonia",
+      "description": "An opportunistic fungal infection of the lungs by Pneumocystis jirovecii, commonly affecting immunocompromised individuals.",
+      "symptoms": [
+        "Dyspnea",
+        "Tachycardia",
+        "Cyanosis",
+        "Nonproductive cough"
+      ],
+      "diagnosis": [
+        "Chest X-ray",
+        "Bronchoalveolar lavage",
+        "Polymerase chain reaction (PCR) for Pneumocystis jirovecii"
+      ],
+      "treatment": [
+        "Antimicrobial therapy (e.g., trimethoprim-sulfamethoxazole)"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Death if untreated"
+      ]
+    },
+    {
+      "name": "Tuberculosis",
+      "description": "A communicable, chronic granulomatous disease caused by Mycobacterium tuberculosis.",
+      "symptoms": [
+        "Cough with sputum production",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Tuberculin skin test",
+        "Chest X-ray",
+        "Sputum smear and culture",
+        "Polymerase chain reaction (PCR) for Mycobacterium tuberculosis"
+      ],
+      "treatment": [
+        "Antituberculous therapy (e.g., isoniazid, rifampin, ethambutol, pyrazinamide)"
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Bronchiectasis",
+        "Pneumothorax",
+        "Empyema",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Sarcoidosis",
+      "description": "A multisystem disease of unknown cause characterized by the presence of noncaseating granulomas in many tissues and organs.",
+      "symptoms": [
+        "Fever",
+        "Fatigue",
+        "Weight loss",
+        "Anorexia",
+        "Night sweats",
+        "Shortness of breath",
+        "Chest pain",
+        "Hemoptysis"
+      ],
+      "diagnosis": [
+        "Chest X-ray",
+        "Biopsy of affected tissue",
+        "Blood tests (e.g., angiotensin-converting enzyme levels)"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressive medications"
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Cor pulmonale",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Acute Lung Injury and Acute Respiratory Distress Syndrome (ARDS)",
+      "description": "A condition characterized by inflammation, increased pulmonary vascular permeability, edema, and death of epithelial cells.",
+      "symptoms": [
+        "Severe dyspnea",
+        "Tachypnea",
+        "Cyanosis",
+        "Hypoxemia"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Chest X-ray",
+        "Arterial blood gas analysis"
+      ],
+      "treatment": [
+        "Mechanical ventilation",
+        "Supportive care",
+        "Treatment of underlying cause"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Multiorgan failure",
+        "Death"
+      ]
+    },
+    {
+      "name": "Atelectasis",
+      "description": "A condition characterized by incomplete expansion of the lungs or collapse of previously expanded lung.",
+      "types": [
+        "Resorption Atelectasis",
+        "Compression Atelectasis",
+        "Contraction Atelectasis"
+      ],
+      "symptoms": [
+        "Depends on the extent and type of atelectasis"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Chest X-ray"
+      ],
+      "treatment": [
+        "Treatment of underlying cause",
+        "Physiotherapy",
+        "Bronchodilators"
+      ],
+      "complications": [
+        "Pneumonia",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Pneumoconioses",
+      "description": "Lung diseases produced by organic as well as inorganic particulates and chemical fumes and vapors.",
+      "types": [
+        "Coal Workers' Pneumoconiosis",
+        "Silicosis",
+        "Asbestosis"
+      ],
+      "symptoms": [
+        "Depends on the type and severity of pneumoconiosis"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Chest X-ray",
+        "Pulmonary function tests"
+      ],
+      "treatment": [
+        "Avoidance of further exposure",
+        "Supportive care"
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Cor pulmonale",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Lung Carcinomas",
+      "description": "Malignant tumors arising from the lung tissue, commonly associated with smoking.",
+      "types": [
+        "Squamous Cell Carcinoma",
+        "Adenocarcinoma",
+        "Small Cell Carcinoma",
+        "Large Cell Carcinoma"
+      ],
+      "symptoms": [
+        "Cough",
+        "Hemoptysis",
+        "Dyspnea",
+        "Chest pain",
+        "Weight loss",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Chest X-ray",
+        "CT scan",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Metastasis",
+        "Respiratory failure",
+        "Death"
+      ]
+    },
+    {
+      "name": "Atherosclerosis",
+      "description": "A disease of the aorta and large arteries characterized by the presence of atherosclerotic plaques composed of smooth muscle cells and macrophages within the intima filled with lipid vacuoles.",
+      "symptoms": [
+        "Often asymptomatic until complications arise",
+        "Angina (chest pain)",
+        "Myocardial infarction",
+        "Stroke",
+        "Peripheral artery disease"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., lipid profile)",
+        "Imaging studies (e.g., angiography, CT scan, MRI)"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise, smoking cessation)",
+        "Medications (e.g., statins, antiplatelets, antihypertensives)",
+        "Surgical procedures (e.g., angioplasty, stenting, bypass surgery)"
+      ],
+      "complications": [
+        "Myocardial infarction",
+        "Stroke",
+        "Peripheral artery disease",
+        "Aneurysm",
+        "Heart failure"
+      ]
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "description": "A progressive neurodegenerative disorder that affects memory and cognitive function.",
+      "symptoms": [
+        "Memory loss",
+        "Cognitive decline",
+        "Difficulty with language",
+        "Changes in behavior and personality"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Neuropsychological testing",
+        "Brain imaging (e.g., MRI, PET scan)",
+        "Cerebrospinal fluid analysis"
+      ],
+      "treatment": [
+        "Medications (e.g., cholinesterase inhibitors, memantine)",
+        "Supportive care",
+        "Behavioral therapy"
+      ],
+      "complications": [
+        "Progressive cognitive decline",
+        "Loss of independence",
+        "Increased risk of infections",
+        "Behavioral changes"
+      ]
+    },
+    {
+      "name": "Diabetes Mellitus",
+      "description": "A metabolic disorder characterized by high blood sugar levels due to insufficient insulin production or insulin resistance.",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing wounds"
+      ],
+      "diagnosis": [
+        "Blood sugar tests (e.g., fasting blood sugar, oral glucose tolerance test)",
+        "HbA1c test"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise)",
+        "Medications (e.g., insulin, oral hypoglycemic agents)",
+        "Monitoring blood sugar levels"
+      ],
+      "complications": [
+        "Cardiovascular disease",
+        "Nerve damage (neuropathy)",
+        "Kidney damage (nephropathy)",
+        "Eye damage (retinopathy)",
+        "Foot damage",
+        "Skin and mouth conditions",
+        "Hearing impairment"
+      ]
+    },
+    {
+      "name": "Cancer",
+      "description": "A group of diseases characterized by abnormal cell growth that can invade or spread to other parts of the body.",
+      "symptoms": [
+        "Unexplained weight loss",
+        "Fatigue",
+        "Pain",
+        "Skin changes",
+        "Changes in bowel or bladder habits",
+        "Persistent cough or hoarseness",
+        "Difficulty swallowing",
+        "Unexplained bleeding or bruising"
+      ],
+      "diagnosis": [
+        "Biopsy",
+        "Imaging studies (e.g., CT scan, MRI, PET scan)",
+        "Blood tests",
+        "Endoscopy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy",
+        "Hormone therapy"
+      ],
+      "complications": [
+        "Metastasis",
+        "Organ failure",
+        "Cachexia",
+        "Pain",
+        "Anemia",
+        "Infections"
+      ]
+    },
+    {
+      "name": "Cirrhosis",
+      "description": "A late-stage scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions, such as hepatitis and chronic alcoholism.",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Loss of appetite",
+        "Weight loss",
+        "Nausea",
+        "Abdominal pain and swelling",
+        "Itching",
+        "Jaundice"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., liver function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Treatment of underlying cause (e.g., antiviral medications for hepatitis)",
+        "Lifestyle changes (e.g., avoiding alcohol)",
+        "Medications (e.g., diuretics, lactulose)",
+        "Liver transplant in severe cases"
+      ],
+      "complications": [
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding",
+        "Hepatic encephalopathy",
+        "Liver cancer"
+      ]
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "description": "A progressive lung disease that makes it hard to breathe.",
+      "symptoms": [
+        "Shortness of breath",
+        "Chronic cough",
+        "Sputum production",
+        "Wheezing",
+        "Chest tightness"
+      ],
+      "diagnosis": [
+        "Pulmonary function tests",
+        "Chest X-ray",
+        "CT scan",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Bronchodilators",
+        "Inhaled steroids",
+        "Oxygen therapy",
+        "Pulmonary rehabilitation",
+        "Smoking cessation"
+      ],
+      "complications": [
+        "Respiratory infections",
+        "Heart problems",
+        "Lung cancer",
+        "High blood pressure in lung arteries",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Acute Pancreatitis",
+      "description": "Sudden inflammation of the pancreas that can range from mild discomfort to a severe, life-threatening illness.",
+      "symptoms": [
+        "Severe abdominal pain",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Rapid pulse"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., amylase, lipase)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Hospitalization",
+        "Fluid replacement",
+        "Pain management",
+        "Nutritional support",
+        "Treatment of underlying cause"
+      ],
+      "complications": [
+        "Pancreatic pseudocyst",
+        "Infection",
+        "Kidney failure",
+        "Breathing problems",
+        "Diabetes",
+        "Malnutrition"
+      ]
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (SLE)",
+      "description": "An autoimmune disease in which the body's immune system mistakenly attacks healthy tissue.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Joint pain",
+        "Butterfly-shaped rash on the face",
+        "Skin lesions",
+        "Shortness of breath",
+        "Chest pain",
+        "Headaches",
+        "Dizziness",
+        "Memory loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., antinuclear antibody test)",
+        "Urine tests",
+        "Imaging studies (e.g., chest X-ray, echocardiogram)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., anti-inflammatory drugs, corticosteroids, antimalarials, immunosuppressants)",
+        "Lifestyle changes",
+        "Supportive care"
+      ],
+      "complications": [
+        "Kidney damage",
+        "Blood clots",
+        "Stroke",
+        "Heart attack",
+        "Infection",
+        "Anemia",
+        "Bone tissue death (avascular necrosis)"
+      ]
+    },
+    {
+      "name": "Hemophilia",
+      "description": "An inherited bleeding disorder in which the blood does not clot normally.",
+      "symptoms": [
+        "Bleeding into the joints",
+        "Bleeding into the muscles",
+        "Bleeding into the skin or mucous membranes",
+        "Bleeding in the brain",
+        "Easy bruising",
+        "Prolonged bleeding from cuts"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., clotting factor tests)",
+        "Family history"
+      ],
+      "treatment": [
+        "Factor replacement therapy",
+        "Desmopressin",
+        "Antifibrinolytic medications",
+        "Pain management",
+        "Physical therapy"
+      ],
+      "complications": [
+        "Joint damage",
+        "Internal bleeding",
+        "Intracranial hemorrhage",
+        "Infection (e.g., HIV, hepatitis)"
+      ]
+    },
+    {
+      "name": "Leukemia",
+      "description": "A type of cancer that affects the blood and bone marrow, characterized by the rapid production of abnormal white blood cells.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Easy bruising",
+        "Bleeding",
+        "Frequent infections",
+        "Swollen lymph nodes",
+        "Enlarged liver or spleen",
+        "Bone pain",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., CT scan, MRI)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Stem cell transplant",
+        "Targeted therapy",
+        "Immunotherapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Bleeding",
+        "Organ damage",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Osteoarthritis",
+      "description": "A degenerative joint disease that occurs when the cartilage in the joints breaks down.",
+      "symptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Swelling",
+        "Decreased range of motion",
+        "Bone spurs"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Imaging studies (e.g., X-ray, MRI)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Pain management (e.g., analgesics, NSAIDs)",
+        "Physical therapy",
+        "Weight management",
+        "Joint replacement surgery"
+      ],
+      "complications": [
+        "Severe pain",
+        "Disability",
+        "Joint deformity",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "description": "An autoimmune disease that causes chronic inflammation of the joints and other areas of the body.",
+      "symptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Swelling",
+        "Fatigue",
+        "Fever",
+        "Weight loss",
+        "Rheumatoid nodules",
+        "Joint deformity"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., rheumatoid factor, anti-CCP antibody)",
+        "Imaging studies (e.g., X-ray, MRI)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Medications (e.g., NSAIDs, corticosteroids, DMARDs, biologics)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Surgery (e.g., joint replacement)"
+      ],
+      "complications": [
+        "Joint damage",
+        "Disability",
+        "Cardiovascular disease",
+        "Osteoporosis",
+        "Lung disease",
+        "Lymphoma"
+      ]
+    },
+    {
+      "name": "Gout",
+      "description": "A type of inflammatory arthritis that develops in some people who have high levels of uric acid in the body.",
+      "symptoms": [
+        "Sudden, severe attacks of pain",
+        "Redness",
+        "Tenderness",
+        "Swelling in joints",
+        "Often affects the big toe"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., uric acid levels)",
+        "Joint fluid test",
+        "Imaging studies (e.g., X-ray, ultrasound)"
+      ],
+      "treatment": [
+        "Medications (e.g., NSAIDs, colchicine, corticosteroids, urate-lowering drugs)",
+        "Lifestyle changes (e.g., diet, hydration)",
+        "Pain management"
+      ],
+      "complications": [
+        "Recurrent gout attacks",
+        "Joint damage",
+        "Tophi (urate crystals in joints, skin, and organs)",
+        "Kidney stones",
+        "Kidney damage"
+      ]
+    },
+    {
+      "name": "Alcoholic Liver Disease",
+      "description": "Liver damage caused by excessive alcohol consumption.",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal discomfort",
+        "Nausea",
+        "Loss of appetite",
+        "Weight loss",
+        "Yellowing of the skin and eyes (jaundice)",
+        "Swelling in the legs and abdomen",
+        "Mental confusion"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., liver function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Abstinence from alcohol",
+        "Nutritional support",
+        "Medications (e.g., corticosteroids, pentoxifylline)",
+        "Liver transplant in severe cases"
+      ],
+      "complications": [
+        "Alcoholic hepatitis",
+        "Cirrhosis",
+        "Liver failure",
+        "Liver cancer",
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding"
+      ]
+    },
+    {
+      "name": "Hepatitis",
+      "description": "Inflammation of the liver caused by viral infections or other factors.",
+      "symptoms": [
+        "Fatigue",
+        "Flu-like symptoms",
+        "Dark urine",
+        "Clay-colored stools",
+        "Abdominal pain",
+        "Loss of appetite",
+        "Nausea",
+        "Vomiting",
+        "Jaundice"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., liver function tests, viral hepatitis panel)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Antiviral medications",
+        "Supportive care",
+        "Lifestyle changes",
+        "Vaccination for prevention"
+      ],
+      "complications": [
+        "Chronic hepatitis",
+        "Cirrhosis",
+        "Liver failure",
+        "Liver cancer",
+        "Death"
+      ]
+    },
+    {
+      "name": "Inflammatory Bowel Disease (IBD)",
+      "description": "A group of disorders in which the intestines become inflamed, including Crohn's disease and ulcerative colitis.",
+      "symptoms": [
+        "Abdominal pain",
+        "Diarrhea",
+        "Blood in stool",
+        "Weight loss",
+        "Fatigue",
+        "Fever",
+        "Reduced appetite"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "Colonoscopy",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Blood tests",
+        "Stool tests"
+      ],
+      "treatment": [
+        "Medications (e.g., anti-inflammatory drugs, immunosuppressants, biologics)",
+        "Dietary changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Intestinal obstruction",
+        "Fistulas",
+        "Abscesses",
+        "Colon cancer",
+        "Anemia",
+        "Osteoporosis"
+      ]
+    },
+    {
+      "name": "Acute Kidney Injury",
+      "description": "A sudden episode of kidney failure or kidney damage that happens within a few hours or a few days.",
+      "symptoms": [
+        "Decreased urine output",
+        "Swelling in legs, ankles, or around the eyes",
+        "Fatigue",
+        "Nausea",
+        "Chest pain or pressure",
+        "Shortness of breath",
+        "Seizures",
+        "Coma"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., creatinine, BUN)",
+        "Urine tests",
+        "Imaging studies (e.g., ultrasound, CT scan)",
+        "Kidney biopsy"
+      ],
+      "treatment": [
+        "Treatment of underlying cause",
+        "Fluid replacement",
+        "Medications (e.g., diuretics)",
+        "Dialysis in severe cases"
+      ],
+      "complications": [
+        "Chronic kidney disease",
+        "Heart failure",
+        "Infection",
+        "Metabolic acidosis",
+        "Electrolyte imbalances"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "description": "A condition in which the blood pressure in the arteries is persistently elevated.",
+      "symptoms": [
+        "Headache",
+        "Shortness of breath",
+        "Nosebleeds",
+        "Flushing",
+        "Dizziness",
+        "Chest pain",
+        "Visual changes",
+        "Blood in the urine"
+      ],
+      "diagnosis": [
+        "Blood pressure measurement",
+        "Blood tests",
+        "Urine tests",
+        "Echocardiogram",
+        "Electrocardiogram (ECG)"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise, weight loss, smoking cessation)",
+        "Medications (e.g., diuretics, ACE inhibitors, beta-blockers, calcium channel blockers)"
+      ],
+      "complications": [
+        "Heart attack",
+        "Stroke",
+        "Heart failure",
+        "Aneurysm",
+        "Weakened and narrowed blood vessels in the kidneys",
+        "Thickened, narrowed, or torn blood vessels in the eyes",
+        "Metabolic syndrome",
+        "Trouble with memory or understanding",
+        "Dementia"
+      ]
+    },
+    {
+      "name": "Stroke",
+      "description": "A medical condition in which poor blood flow to the brain results in cell death.",
+      "symptoms": [
+        "Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body",
+        "Sudden confusion",
+        "Trouble speaking",
+        "Trouble understanding",
+        "Sudden trouble seeing in one or both eyes",
+        "Sudden trouble walking",
+        "Dizziness",
+        "Loss of balance or coordination",
+        "Sudden severe headache"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Carotid ultrasound",
+        "Echocardiogram"
+      ],
+      "treatment": [
+        "Medications (e.g., tissue plasminogen activator, antiplatelets, anticoagulants)",
+        "Surgery (e.g., carotid endarterectomy, angioplasty)",
+        "Rehabilitation"
+      ],
+      "complications": [
+        "Brain damage",
+        "Disability",
+        "Death"
+      ]
+    },
+    {
+      "name": "Hypersensitivity Reactions",
+      "description": "An exaggerated response of the immune system to a substance.",
+      "symptoms": [
+        "Itching",
+        "Hives",
+        "Swelling",
+        "Anaphylaxis (severe reaction)",
+        "Breathing difficulties",
+        "Rapid heartbeat",
+        "Dizziness",
+        "Loss of consciousness"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Skin tests",
+        "Blood tests (e.g., IgE levels)",
+        "Challenge tests"
+      ],
+      "treatment": [
+        "Avoidance of triggers",
+        "Medications (e.g., antihistamines, corticosteroids, epinephrine)",
+        "Immunotherapy"
+      ],
+      "complications": [
+        "Anaphylaxis",
+        "Respiratory failure",
+        "Cardiac arrest",
+        "Death"
+      ]
+    },
+    {
+      "name": "Autoimmune Diseases",
+      "description": "Conditions in which the immune system mistakenly attacks healthy cells.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Joint pain",
+        "Rash",
+        "Organ-specific symptoms"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., autoantibodies)",
+        "Imaging studies",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., immunosuppressants, corticosteroids)",
+        "Lifestyle changes",
+        "Supportive care"
+      ],
+      "complications": [
+        "Organ damage",
+        "Disability",
+        "Increased risk of infections",
+        "Increased risk of certain cancers"
+      ]
+    },
+    {
+      "name": "Obesity",
+      "description": "A medical condition that occurs when a person carries excess weight or body fat that might affect their health.",
+      "symptoms": [
+        "Excess body fat",
+        "Breathlessness",
+        "Increased sweat",
+        "Snoring",
+        "Inability to cope with sudden physical activity",
+        "Feeling very tired every day",
+        "Back and joint pains",
+        "Low confidence and self-esteem",
+        "Feeling isolated"
+      ],
+      "diagnosis": [
+        "Body mass index (BMI) calculation",
+        "Waist circumference measurement",
+        "Blood tests (e.g., lipid profile, blood sugar)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise)",
+        "Medications (e.g., orlistat, liraglutide)",
+        "Weight-loss surgery in severe cases"
+      ],
+      "complications": [
+        "Type 2 diabetes",
+        "Heart disease",
+        "Stroke",
+        "Certain types of cancer",
+        "Digestive problems",
+        "Sleep apnea",
+        "Osteoarthritis",
+        "Severe COVID-19 symptoms"
+      ]
+    },
+    {
+      "name": "Anemia",
+      "description": "A condition in which the body does not have enough healthy red blood cells to carry adequate oxygen to the body's tissues.",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Pale or yellowish skin",
+        "Irregular heartbeats",
+        "Shortness of breath",
+        "Dizziness or lightheadedness",
+        "Chest pain",
+        "Cold hands and feet",
+        "Headache"
+      ],
+      "diagnosis": [
+        "Complete blood count (CBC)",
+        "Blood tests (e.g., iron levels, vitamin B12 levels, folate levels)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Vitamin B12 supplements",
+        "Folic acid supplements",
+        "Blood transfusions",
+        "Treatment of underlying cause"
+      ],
+      "complications": [
+        "Heart problems",
+        "Pregnancy complications",
+        "Delayed growth and development in children",
+        "Severe weakness"
+      ]
+    },
+    {
+      "name": "Thalassemia",
+      "description": "A group of inherited blood disorders that affect the body's ability to produce hemoglobin and red blood cells.",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Pale or yellowish skin",
+        "Shortness of breath",
+        "Rapid heart rate",
+        "Bone deformities",
+        "Slow growth",
+        "Delayed puberty",
+        "Enlarged spleen"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, hemoglobin electrophoresis)",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Blood transfusions",
+        "Iron chelation therapy",
+        "Bone marrow transplant",
+        "Gene therapy"
+      ],
+      "complications": [
+        "Iron overload",
+        "Heart problems",
+        "Liver problems",
+        "Infections",
+        "Bone problems",
+        "Delayed growth and development"
+      ]
+    },
+    {
+      "name": "Sickle Cell Disease",
+      "description": "A group of inherited red blood cell disorders that affects hemoglobin, the molecule in red blood cells that delivers oxygen to cells throughout the body.",
+      "symptoms": [
+        "Pain crises",
+        "Swelling in hands and feet",
+        "Frequent infections",
+        "Delayed growth",
+        "Vision problems",
+        "Anemia",
+        "Stroke",
+        "Acute chest syndrome"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., hemoglobin electrophoresis)",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Pain management",
+        "Blood transfusions",
+        "Hydroxyurea",
+        "Bone marrow transplant",
+        "Gene therapy"
+      ],
+      "complications": [
+        "Stroke",
+        "Acute chest syndrome",
+        "Pulmonary hypertension",
+        "Organ damage",
+        "Blindness",
+        "Leg ulcers",
+        "Gallstones",
+        "Priapism"
+      ]
+    },
+    {
+      "name": "Hemolytic Anemia",
+      "description": "A condition in which red blood cells are destroyed and removed from the bloodstream before their normal lifespan is over.",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Jaundice",
+        "Dark urine",
+        "Shortness of breath",
+        "Rapid heart rate",
+        "Enlarged spleen",
+        "Leg ulcers"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, reticulocyte count, bilirubin levels)",
+        "Urine tests",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Treatment of underlying cause",
+        "Blood transfusions",
+        "Medications (e.g., corticosteroids, immunosuppressants)",
+        "Splenectomy"
+      ],
+      "complications": [
+        "Iron overload",
+        "Gallstones",
+        "Infections",
+        "Heart problems",
+        "Liver problems"
+      ]
+    },
+    {
+      "name": "Lymphoma",
+      "description": "A group of blood cancers that develop from lymphocytes, a type of white blood cell.",
+      "symptoms": [
+        "Swollen lymph nodes",
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Itching",
+        "Shortness of breath",
+        "Cough",
+        "Chest pain"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, PET scan)",
+        "Lymph node biopsy",
+        "Bone marrow biopsy"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Stem cell transplant",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Organ damage",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Multiple Myeloma",
+      "description": "A cancer of plasma cells, a type of white blood cell normally responsible for producing antibodies.",
+      "symptoms": [
+        "Bone pain",
+        "Fractures",
+        "Fatigue",
+        "Frequent infections",
+        "Anemia",
+        "Kidney problems",
+        "Hypercalcemia",
+        "Nerve damage",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, serum protein electrophoresis)",
+        "Urine tests",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., X-ray, MRI)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Stem cell transplant",
+        "Immunomodulatory drugs",
+        "Proteasome inhibitors",
+        "Monoclonal antibodies",
+        "Radiation therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Bone fractures",
+        "Kidney failure",
+        "Anemia",
+        "Infections",
+        "Hypercalcemia",
+        "Nerve damage"
+      ]
+    },
+    {
+      "name": "Hodgkin Lymphoma",
+      "description": "A type of lymphoma, a cancer originating from white blood cells called lymphocytes.",
+      "symptoms": [
+        "Swollen lymph nodes",
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Itching",
+        "Cough",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, PET scan)",
+        "Lymph node biopsy",
+        "Bone marrow biopsy"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Stem cell transplant",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Organ damage",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "description": "A diverse group of blood cancers that include any kind of lymphoma except Hodgkin lymphomas.",
+      "symptoms": [
+        "Swollen lymph nodes",
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Itching",
+        "Shortness of breath",
+        "Cough",
+        "Chest pain"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, PET scan)",
+        "Lymph node biopsy",
+        "Bone marrow biopsy"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Stem cell transplant",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Organ damage",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Chronic Myelogenous Leukemia",
+      "description": "A type of cancer that starts in the blood-forming cells of the bone marrow and invades the blood.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Bone pain",
+        "Enlarged spleen",
+        "Swollen lymph nodes",
+        "Frequent infections",
+        "Easy bruising and bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Tyrosine kinase inhibitors",
+        "Chemotherapy",
+        "Stem cell transplant",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Bleeding",
+        "Organ damage",
+        "Blast crisis"
+      ]
+    },
+    {
+      "name": "Chronic Lymphocytic Leukemia",
+      "description": "A type of cancer that starts in the white blood cells (lymphocytes) in the bone marrow and invades the blood.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Swollen lymph nodes",
+        "Enlarged spleen",
+        "Frequent infections",
+        "Anemia",
+        "Easy bruising and bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., CT scan)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Targeted therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Autoimmune disorders",
+        "Richter's transformation"
+      ]
+    },
+    {
+      "name": "Hairy Cell Leukemia",
+      "description": "A rare, slow-growing cancer in which the bone marrow makes too many lymphocytes.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Swollen lymph nodes",
+        "Enlarged spleen",
+        "Frequent infections",
+        "Anemia",
+        "Easy bruising and bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., CT scan)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Plasma Cell Neoplasms",
+      "description": "A group of diseases in which the body makes too many plasma cells.",
+      "symptoms": [
+        "Bone pain",
+        "Fractures",
+        "Fatigue",
+        "Frequent infections",
+        "Anemia",
+        "Kidney problems",
+        "Hypercalcemia",
+        "Nerve damage",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, serum protein electrophoresis)",
+        "Urine tests",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., X-ray, MRI)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Stem cell transplant",
+        "Immunomodulatory drugs",
+        "Proteasome inhibitors",
+        "Monoclonal antibodies",
+        "Radiation therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Bone fractures",
+        "Kidney failure",
+        "Anemia",
+        "Infections",
+        "Hypercalcemia",
+        "Nerve damage"
+      ]
+    },
+    {
+      "name": "Acute Leukemia",
+      "description": "A type of cancer that affects the blood and bone marrow, characterized by the rapid production of abnormal white blood cells.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Easy bruising",
+        "Bleeding",
+        "Frequent infections",
+        "Swollen lymph nodes",
+        "Enlarged liver or spleen",
+        "Bone pain",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., CT scan, MRI)"
+      ],
+      "treatment": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Stem cell transplant",
+        "Targeted therapy",
+        "Immunotherapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Bleeding",
+        "Organ damage",
+        "Secondary cancers"
+      ]
+    },
+    {
+      "name": "Myelodysplastic Syndromes",
+      "description": "A group of disorders caused by poorly formed or dysfunctional blood cells.",
+      "symptoms": [
+        "Fatigue",
+        "Shortness of breath",
+        "Pale skin",
+        "Easy bruising and bleeding",
+        "Frequent infections",
+        "Petechiae",
+        "Anemia"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Supportive care (e.g., blood transfusions, antibiotics)",
+        "Chemotherapy",
+        "Immunotherapy",
+        "Stem cell transplant"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Bleeding",
+        "Acute leukemia"
+      ]
+    },
+    {
+      "name": "Myeloproliferative Neoplasms",
+      "description": "A group of disorders in which the bone marrow makes too many red blood cells, white blood cells, or platelets.",
+      "symptoms": [
+        "Fatigue",
+        "Shortness of breath",
+        "Headache",
+        "Dizziness",
+        "Visual disturbances",
+        "Itching",
+        "Night sweats",
+        "Weight loss",
+        "Enlarged spleen",
+        "Bone pain",
+        "Thrombosis",
+        "Bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Phlebotomy",
+        "Chemotherapy",
+        "Interferon therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Thrombosis",
+        "Bleeding",
+        "Organ damage",
+        "Acute leukemia"
+      ]
+    },
+    {
+      "name": "Polycythemia Vera",
+      "description": "A rare blood disorder in which the bone marrow makes too many red blood cells.",
+      "symptoms": [
+        "Headache",
+        "Dizziness",
+        "Shortness of breath",
+        "Visual disturbances",
+        "Itching",
+        "Night sweats",
+        "Weight loss",
+        "Enlarged spleen",
+        "Thrombosis",
+        "Bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Phlebotomy",
+        "Chemotherapy",
+        "Interferon therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Thrombosis",
+        "Bleeding",
+        "Organ damage",
+        "Acute leukemia"
+      ]
+    },
+    {
+      "name": "Essential Thrombocythemia",
+      "description": "A rare blood disorder in which the bone marrow makes too many platelets.",
+      "symptoms": [
+        "Headache",
+        "Dizziness",
+        "Visual disturbances",
+        "Numbness or tingling in the hands or feet",
+        "Fatigue",
+        "Night sweats",
+        "Weight loss",
+        "Enlarged spleen",
+        "Thrombosis",
+        "Bleeding"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Aspirin",
+        "Hydroxyurea",
+        "Interferon therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Thrombosis",
+        "Bleeding",
+        "Organ damage",
+        "Acute leukemia"
+      ]
+    },
+    {
+      "name": "Primary Myelofibrosis",
+      "description": "A rare blood disorder in which the bone marrow is replaced by scar tissue.",
+      "symptoms": [
+        "Fatigue",
+        "Shortness of breath",
+        "Pale skin",
+        "Easy bruising and bleeding",
+        "Frequent infections",
+        "Bone pain",
+        "Enlarged spleen",
+        "Weight loss",
+        "Night sweats"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, peripheral blood smear)",
+        "Bone marrow biopsy",
+        "Imaging studies (e.g., CT scan, MRI)"
+      ],
+      "treatment": [
+        "Supportive care (e.g., blood transfusions, antibiotics)",
+        "Chemotherapy",
+        "Stem cell transplant"
+      ],
+      "complications": [
+        "Anemia",
+        "Infections",
+        "Bleeding",
+        "Organ damage",
+        "Acute leukemia"
+      ]
+    },
+    {
+      "name": "Von Willebrand Disease",
+      "description": "An inherited bleeding disorder caused by a deficiency or dysfunction of von Willebrand factor.",
+      "symptoms": [
+        "Easy bruising",
+        "Nosebleeds",
+        "Prolonged bleeding from cuts",
+        "Heavy menstrual bleeding",
+        "Bleeding in the joints",
+        "Bleeding in the gastrointestinal tract"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., von Willebrand factor levels, ristocetin cofactor activity)",
+        "Family history"
+      ],
+      "treatment": [
+        "Desmopressin",
+        "von Willebrand factor concentrates",
+        "Antifibrinolytic medications",
+        "Supportive care"
+      ],
+      "complications": [
+        "Joint damage",
+        "Internal bleeding",
+        "Menorrhagia",
+        "Gastrointestinal bleeding"
+      ]
+    },
+    {
+      "name": "Disseminated Intravascular Coagulation (DIC)",
+      "description": "A condition in which blood clots form throughout the body, blocking small blood vessels.",
+      "symptoms": [
+        "Bleeding from multiple sites",
+        "Purpura",
+        "Petechiae",
+        "Organ failure",
+        "Shock",
+        "Coma"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, coagulation tests, fibrin degradation products)",
+        "Clinical evaluation"
+      ],
+      "treatment": [
+        "Treatment of underlying cause",
+        "Blood transfusions",
+        "Anticoagulants",
+        "Supportive care"
+      ],
+      "complications": [
+        "Organ failure",
+        "Bleeding",
+        "Death"
+      ]
+    },
+    {
+      "name": "Thrombocytopenia",
+      "description": "A condition in which the blood has a lower than normal number of platelets.",
+      "symptoms": [
+        "Easy bruising",
+        "Petechiae",
+        "Prolonged bleeding from cuts",
+        "Nosebleeds",
+        "Bleeding gums",
+        "Heavy menstrual bleeding",
+        "Blood in urine or stool"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., complete blood count, platelet count)",
+        "Bone marrow biopsy"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunoglobulin therapy",
+        "Platelet transfusions",
+        "Splenectomy",
+        "Thrombopoietin receptor agonists"
+      ],
+      "complications": [
+        "Bleeding",
+        "Anemia",
+        "Infections"
+      ]
+    },
+    {
+      "name": "Hemophilia A",
+      "description": "An inherited bleeding disorder caused by a deficiency of factor VIII.",
+      "symptoms": [
+        "Bleeding into the joints",
+        "Bleeding into the muscles",
+        "Bleeding into the skin or mucous membranes",
+        "Bleeding in the brain",
+        "Easy bruising",
+        "Prolonged bleeding from cuts"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., factor VIII levels)",
+        "Family history"
+      ],
+      "treatment": [
+        "Factor VIII replacement therapy",
+        "Desmopressin",
+        "Antifibrinolytic medications",
+        "Pain management",
+        "Physical therapy"
+      ],
+      "complications": [
+        "Joint damage",
+        "Internal bleeding",
+        "Intracranial hemorrhage",
+        "Infection (e.g., HIV, hepatitis)"
+      ]
+    },
+    {
+      "name": "Hemophilia B",
+      "description": "An inherited bleeding disorder caused by a deficiency of factor IX.",
+      "symptoms": [
+        "Bleeding into the joints",
+        "Bleeding into the muscles",
+        "Bleeding into the skin or mucous membranes",
+        "Bleeding in the brain",
+        "Easy bruising",
+        "Prolonged bleeding from cuts"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., factor IX levels)",
+        "Family history"
+      ],
+      "treatment": [
+        "Factor IX replacement therapy",
+        "Desmopressin",
+        "Antifibrinolytic medications",
+        "Pain management",
+        "Physical therapy"
+      ],
+      "complications": [
+        "Joint damage",
+        "Internal bleeding",
+        "Intracranial hemorrhage",
+        "Infection (e.g., HIV, hepatitis)"
+      ]
+    },
+    {
+      "name": "Viral Hepatitis",
+      "description": "Inflammation of the liver caused by a viral infection.",
+      "symptoms": [
+        "Fatigue",
+        "Flu-like symptoms",
+        "Dark urine",
+        "Clay-colored stools",
+        "Abdominal pain",
+        "Loss of appetite",
+        "Nausea",
+        "Vomiting",
+        "Jaundice"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., liver function tests, viral hepatitis panel)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Antiviral medications",
+        "Supportive care",
+        "Lifestyle changes",
+        "Vaccination for prevention"
+      ],
+      "complications": [
+        "Chronic hepatitis",
+        "Cirrhosis",
+        "Liver failure",
+        "Liver cancer",
+        "Death"
+      ]
+    },
+    {
+      "name": "Alcoholic Hepatitis",
+      "description": "Inflammation of the liver caused by excessive alcohol consumption.",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal discomfort",
+        "Nausea",
+        "Loss of appetite",
+        "Weight loss",
+        "Yellowing of the skin and eyes (jaundice)",
+        "Swelling in the legs and abdomen",
+        "Mental confusion"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., liver function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Abstinence from alcohol",
+        "Nutritional support",
+        "Medications (e.g., corticosteroids, pentoxifylline)",
+        "Liver transplant in severe cases"
+      ],
+      "complications": [
+        "Alcoholic hepatitis",
+        "Cirrhosis",
+        "Liver failure",
+        "Liver cancer",
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding"
+      ]
+    },
+    {
+      "name": "Autoimmune Hepatitis",
+      "description": "A chronic disease in which the body's immune system attacks the liver.",
+      "symptoms": [
+        "Fatigue",
+        "Joint pain",
+        "Abdominal discomfort",
+        "Yellowing of the skin and eyes (jaundice)",
+        "Itching",
+        "Enlarged liver",
+        "Spider angiomas",
+        "Ascites",
+        "Mental confusion"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., liver function tests, autoantibodies)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants",
+        "Supportive care"
+      ],
+      "complications": [
+        "Cirrhosis",
+        "Liver failure",
+        "Liver cancer",
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding"
+      ]
+    },
+    {
+      "name": "Wilson's Disease",
+      "description": "A genetic disorder that prevents the body from removing extra copper, leading to its accumulation in the liver and brain.",
+      "symptoms": [
+        "Fatigue",
+        "Abdominal pain",
+        "Jaundice",
+        "Kayser-Fleischer rings (golden-brown discoloration of the eyes)",
+        "Tremors",
+        "Difficulty speaking",
+        "Difficulty swallowing",
+        "Drooling",
+        "Psychiatric symptoms"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., ceruloplasmin levels, copper levels)",
+        "Urine tests",
+        "Liver biopsy",
+        "Eye examination"
+      ],
+      "treatment": [
+        "Chelating agents (e.g., penicillamine, trientine)",
+        "Zinc salts",
+        "Supportive care"
+      ],
+      "complications": [
+        "Liver failure",
+        "Cirrhosis",
+        "Neurological damage",
+        "Psychiatric disorders",
+        "Kidney problems"
+      ]
+    },
+    {
+      "name": "Hemochromatosis",
+      "description": "A condition in which the body absorbs too much iron, leading to its accumulation in various organs.",
+      "symptoms": [
+        "Fatigue",
+        "Joint pain",
+        "Abdominal pain",
+        "Weight loss",
+        "Weakness",
+        "Diabetes",
+        "Heart problems",
+        "Skin bronzing",
+        "Impotence"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., iron levels, ferritin levels, transferrin saturation)",
+        "Genetic testing",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Phlebotomy",
+        "Iron chelation therapy",
+        "Dietary changes",
+        "Supportive care"
+      ],
+      "complications": [
+        "Liver damage",
+        "Heart problems",
+        "Diabetes",
+        "Joint damage",
+        "Skin changes"
+      ]
+    },
+    {
+      "name": "Primary Biliary Cholangitis",
+      "description": "A chronic liver disease that slowly destroys the bile ducts in the liver.",
+      "symptoms": [
+        "Fatigue",
+        "Itching",
+        "Dry eyes and mouth",
+        "Abdominal pain",
+        "Jaundice",
+        "Dark urine",
+        "Pale stools",
+        "Enlarged liver",
+        "Enlarged spleen"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., liver function tests, antimitochondrial antibodies)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Ursodeoxycholic acid",
+        "Obeticholic acid",
+        "Supportive care",
+        "Liver transplant in severe cases"
+      ],
+      "complications": [
+        "Cirrhosis",
+        "Liver failure",
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding",
+        "Osteoporosis",
+        "Fatigue"
+      ]
+    },
+    {
+      "name": "Primary Sclerosing Cholangitis",
+      "description": "A chronic liver disease that causes inflammation and scarring of the bile ducts.",
+      "symptoms": [
+        "Fatigue",
+        "Itching",
+        "Abdominal pain",
+        "Jaundice",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Enlarged liver",
+        "Enlarged spleen"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., liver function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI, ERCP)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Ursodeoxycholic acid",
+        "Supportive care",
+        "Liver transplant in severe cases"
+      ],
+      "complications": [
+        "Cirrhosis",
+        "Liver failure",
+        "Cholangiocarcinoma",
+        "Portal hypertension",
+        "Ascites",
+        "Variceal bleeding"
+      ]
+    },
+    {
+      "name": "Gallstones (Cholelithiasis)",
+      "description": "Solid deposits that form in the gallbladder.",
+      "symptoms": [
+        "Pain in the upper right abdomen",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Jaundice",
+        "Clay-colored stools",
+        "Dark urine"
+      ],
+      "diagnosis": [
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Blood tests (e.g., liver function tests)"
+      ],
+      "treatment": [
+        "Surgery (e.g., cholecystectomy)",
+        "Medications (e.g., ursodeoxycholic acid)",
+        "Lithotripsy"
+      ],
+      "complications": [
+        "Cholecystitis",
+        "Cholangitis",
+        "Pancreatitis",
+        "Gallbladder cancer"
+      ]
+    },
+    {
+      "name": "Cholecystitis",
+      "description": "Inflammation of the gallbladder.",
+      "symptoms": [
+        "Pain in the upper right abdomen",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Jaundice",
+        "Clay-colored stools",
+        "Dark urine"
+      ],
+      "diagnosis": [
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Blood tests (e.g., liver function tests)"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Pain management",
+        "Surgery (e.g., cholecystectomy)"
+      ],
+      "complications": [
+        "Gangrene",
+        "Perforation",
+        "Empyema",
+        "Sepsis"
+      ]
+    },
+    {
+      "name": "Pancreatitis",
+      "description": "Inflammation of the pancreas.",
+      "symptoms": [
+        "Severe abdominal pain",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Rapid pulse",
+        "Tenderness in the abdomen",
+        "Weight loss",
+        "Oily stools"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., amylase, lipase)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Hospitalization",
+        "Fluid replacement",
+        "Pain management",
+        "Nutritional support",
+        "Treatment of underlying cause"
+      ],
+      "complications": [
+        "Pancreatic pseudocyst",
+        "Infection",
+        "Kidney failure",
+        "Breathing problems",
+        "Diabetes",
+        "Malnutrition"
+      ]
+    },
+    {
+      "name": "Type 1 Diabetes",
+      "description": "A chronic condition in which the pancreas produces little or no insulin.",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Fatigue",
+        "Blurred vision",
+        "Weight loss",
+        "Increased hunger"
+      ],
+      "diagnosis": [
+        "Blood sugar tests (e.g., fasting blood sugar, oral glucose tolerance test)",
+        "HbA1c test",
+        "Autoantibody testing"
+      ],
+      "treatment": [
+        "Insulin therapy",
+        "Blood sugar monitoring",
+        "Lifestyle changes (e.g., diet, exercise)"
+      ],
+      "complications": [
+        "Hypoglycemia",
+        "Diabetic ketoacidosis",
+        "Cardiovascular disease",
+        "Nerve damage (neuropathy)",
+        "Kidney damage (nephropathy)",
+        "Eye damage (retinopathy)"
+      ]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "description": "A chronic condition characterized by high blood sugar levels due to insulin resistance.",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing wounds",
+        "Tingling or numbness in hands or feet",
+        "Recurrent infections"
+      ],
+      "diagnosis": [
+        "Blood sugar tests (e.g., fasting blood sugar, oral glucose tolerance test)",
+        "HbA1c test"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise)",
+        "Medications (e.g., oral hypoglycemic agents, insulin)",
+        "Monitoring blood sugar levels"
+      ],
+      "complications": [
+        "Cardiovascular disease",
+        "Nerve damage (neuropathy)",
+        "Kidney damage (nephropathy)",
+        "Eye damage (retinopathy)",
+        "Foot damage",
+        "Skin and mouth conditions",
+        "Hearing impairment"
+      ]
+    },
+    {
+      "name": "Gestational Diabetes",
+      "description": "A type of diabetes that develops during pregnancy.",
+      "symptoms": [
+        "Usually no symptoms",
+        "Increased thirst",
+        "Frequent urination",
+        "Fatigue",
+        "Blurred vision"
+      ],
+      "diagnosis": [
+        "Oral glucose tolerance test",
+        "Blood sugar tests"
+      ],
+      "treatment": [
+        "Diet and exercise",
+        "Medications (e.g., insulin, oral hypoglycemic agents)",
+        "Monitoring blood sugar levels"
+      ],
+      "complications": [
+        "High birth weight",
+        "Preterm birth",
+        "Respiratory distress syndrome",
+        "Low blood sugar (hypoglycemia)",
+        "Type 2 diabetes later in life",
+        "Preeclampsia"
+      ]
+    },
+    {
+      "name": "Crohn's Disease",
+      "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+      "symptoms": [
+        "Abdominal pain",
+        "Diarrhea",
+        "Weight loss",
+        "Fatigue",
+        "Blood in stool",
+        "Mouth sores",
+        "Fever",
+        "Delayed growth in children"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "Colonoscopy",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Blood tests",
+        "Stool tests"
+      ],
+      "treatment": [
+        "Medications (e.g., anti-inflammatory drugs, immunosuppressants, biologics)",
+        "Dietary changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Intestinal obstruction",
+        "Fistulas",
+        "Abscesses",
+        "Colon cancer",
+        "Anemia",
+        "Osteoporosis"
+      ]
+    },
+    {
+      "name": "Ulcerative Colitis",
+      "description": "A type of inflammatory bowel disease that affects the lining of the rectum and colon.",
+      "symptoms": [
+        "Abdominal pain",
+        "Diarrhea with blood",
+        "Fatigue",
+        "Weight loss",
+        "Fever",
+        "Tenesmus",
+        "Joint pain",
+        "Skin rashes",
+        "Mouth sores"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "Colonoscopy",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Blood tests",
+        "Stool tests"
+      ],
+      "treatment": [
+        "Medications (e.g., anti-inflammatory drugs, immunosuppressants, biologics)",
+        "Dietary changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Toxic megacolon",
+        "Colon cancer",
+        "Anemia",
+        "Osteoporosis",
+        "Liver disease",
+        "Skin conditions",
+        "Joint problems"
+      ]
+    },
+    {
+      "name": "Celiac Disease",
+      "description": "An immune reaction to eating gluten, a protein found in wheat, barley, and rye.",
+      "symptoms": [
+        "Diarrhea",
+        "Fatigue",
+        "Weight loss",
+        "Bloating",
+        "Abdominal pain",
+        "Gas",
+        "Constipation",
+        "Nausea",
+        "Vomiting"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., tTG-IgA, EMA)",
+        "Endoscopy with biopsy",
+        "Genetic testing"
+      ],
+      "treatment": [
+        "Gluten-free diet",
+        "Nutritional supplements",
+        "Supportive care"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Osteoporosis",
+        "Infertility",
+        "Nerve damage",
+        "Seizures",
+        "Lactose intolerance",
+        "Certain cancers"
+      ]
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "description": "A common disorder that affects the large intestine, causing abdominal pain, bloating, and changes in bowel habits.",
+      "symptoms": [
+        "Abdominal pain",
+        "Bloating",
+        "Diarrhea",
+        "Constipation",
+        "Gas",
+        "Mucus in stool"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Blood tests",
+        "Stool tests",
+        "Imaging studies (e.g., colonoscopy)"
+      ],
+      "treatment": [
+        "Dietary changes",
+        "Medications (e.g., antispasmodics, antidiarrheals, laxatives)",
+        "Probiotics",
+        "Psychological therapy"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Dehydration",
+        "Anxiety",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Diverticulitis",
+      "description": "Inflammation or infection of small pouches called diverticula that can form in the walls of the digestive system.",
+      "symptoms": [
+        "Abdominal pain",
+        "Fever",
+        "Nausea",
+        "Vomiting",
+        "Constipation",
+        "Diarrhea",
+        "Blood in stool"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Colonoscopy"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Pain management",
+        "Dietary changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Abscess",
+        "Perforation",
+        "Peritonitis",
+        "Fistulas",
+        "Intestinal obstruction"
+      ]
+    },
+    {
+      "name": "Appendicitis",
+      "description": "Inflammation of the appendix, a small tube connected to the large intestine.",
+      "symptoms": [
+        "Abdominal pain",
+        "Nausea",
+        "Vomiting",
+        "Loss of appetite",
+        "Fever",
+        "Constipation",
+        "Diarrhea"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Imaging studies (e.g., ultrasound, CT scan)",
+        "Urine tests"
+      ],
+      "treatment": [
+        "Surgery (appendectomy)",
+        "Antibiotics",
+        "Pain management"
+      ],
+      "complications": [
+        "Rupture of the appendix",
+        "Peritonitis",
+        "Abscess",
+        "Sepsis"
+      ]
+    },
+    {
+      "name": "Peptic Ulcer Disease",
+      "description": "A condition in which painful sores or ulcers develop in the lining of the stomach or duodenum.",
+      "symptoms": [
+        "Burning stomach pain",
+        "Nausea",
+        "Vomiting",
+        "Bloating",
+        "Heartburn",
+        "Loss of appetite",
+        "Weight loss",
+        "Black or tarry stools",
+        "Vomiting blood"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "Blood tests (e.g., H. pylori testing)",
+        "Stool tests",
+        "Breath tests"
+      ],
+      "treatment": [
+        "Medications (e.g., proton pump inhibitors, H2 blockers, antibiotics)",
+        "Lifestyle changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Bleeding",
+        "Perforation",
+        "Gastric outlet obstruction",
+        "Stomach cancer"
+      ]
+    },
+    {
+      "name": "Gastroesophageal Reflux Disease (GERD)",
+      "description": "A digestive disorder that occurs when stomach acid flows back into the esophagus.",
+      "symptoms": [
+        "Heartburn",
+        "Regurgitation",
+        "Difficulty swallowing",
+        "Chest pain",
+        "Hoarseness",
+        "Chronic cough",
+        "Asthma"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "pH monitoring",
+        "Esophageal manometry",
+        "Imaging studies (e.g., barium swallow)"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, weight loss)",
+        "Medications (e.g., proton pump inhibitors, H2 blockers, antacids)",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Esophagitis",
+        "Esophageal stricture",
+        "Barrett's esophagus",
+        "Esophageal cancer"
+      ]
+    },
+    {
+      "name": "Gastritis",
+      "description": "Inflammation of the lining of the stomach.",
+      "symptoms": [
+        "Indigestion",
+        "Nausea",
+        "Vomiting",
+        "Abdominal pain",
+        "Bloating",
+        "Loss of appetite",
+        "Black or tarry stools",
+        "Vomiting blood"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "Blood tests (e.g., H. pylori testing)",
+        "Stool tests",
+        "Breath tests"
+      ],
+      "treatment": [
+        "Medications (e.g., proton pump inhibitors, H2 blockers, antibiotics)",
+        "Lifestyle changes",
+        "Supportive care"
+      ],
+      "complications": [
+        "Bleeding",
+        "Ulcers",
+        "Stomach cancer"
+      ]
+    },
+    {
+      "name": "Esophageal Cancer",
+      "description": "Cancer that begins in the cells that line the esophagus.",
+      "symptoms": [
+        "Difficulty swallowing",
+        "Weight loss",
+        "Chest pain",
+        "Coughing",
+        "Hoarseness",
+        "Indigestion",
+        "Heartburn"
+      ],
+      "diagnosis": [
+        "Endoscopy with biopsy",
+        "Imaging studies (e.g., CT scan, PET scan)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Gastric Cancer",
+      "description": "Cancer that begins in the cells that line the stomach.",
+      "symptoms": [
+        "Indigestion",
+        "Heartburn",
+        "Nausea",
+        "Vomiting",
+        "Abdominal pain",
+        "Bloating",
+        "Loss of appetite",
+        "Weight loss",
+        "Black or tarry stools",
+        "Vomiting blood"
+      ],
+      "diagnosis": [
+        "Endoscopy with biopsy",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Colorectal Cancer",
+      "description": "Cancer that begins in the cells that line the colon or rectum.",
+      "symptoms": [
+        "Change in bowel habits",
+        "Rectal bleeding",
+        "Abdominal pain",
+        "Fatigue",
+        "Weight loss",
+        "Anemia"
+      ],
+      "diagnosis": [
+        "Colonoscopy with biopsy",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Hepatocellular Carcinoma",
+      "description": "The most common type of primary liver cancer.",
+      "symptoms": [
+        "Fatigue",
+        "Weight loss",
+        "Abdominal pain",
+        "Yellowing of the skin and eyes (jaundice)",
+        "Enlarged liver",
+        "Enlarged spleen",
+        "Abdominal swelling",
+        "Fever"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., alpha-fetoprotein, liver function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Liver biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Liver transplant",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Liver failure",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Pancreatic Cancer",
+      "description": "Cancer that begins in the cells of the pancreas.",
+      "symptoms": [
+        "Abdominal pain",
+        "Weight loss",
+        "Jaundice",
+        "Dark urine",
+        "Clay-colored stools",
+        "Itching",
+        "Nausea",
+        "Vomiting",
+        "Enlarged gallbladder"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, MRI, endoscopic ultrasound)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Malnutrition",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Breast Cancer",
+      "description": "Cancer that forms in the cells of the breast.",
+      "symptoms": [
+        "Lump or thickening in the breast",
+        "Change in the size or shape of the breast",
+        "Nipple discharge",
+        "Nipple inversion",
+        "Skin changes",
+        "Breast pain"
+      ],
+      "diagnosis": [
+        "Mammography",
+        "Ultrasound",
+        "MRI",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Hormone therapy",
+        "Targeted therapy",
+        "Immunotherapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Lymphedema"
+      ]
+    },
+    {
+      "name": "Cervical Cancer",
+      "description": "Cancer that begins in the cells lining the cervix.",
+      "symptoms": [
+        "Abnormal vaginal bleeding",
+        "Pelvic pain",
+        "Pain during intercourse",
+        "Unusual vaginal discharge"
+      ],
+      "diagnosis": [
+        "Pap test",
+        "HPV testing",
+        "Colposcopy",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Infertility",
+        "Sexual dysfunction",
+        "Lymphedema",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Ovarian Cancer",
+      "description": "Cancer that begins in the cells of the ovaries.",
+      "symptoms": [
+        "Abdominal bloating",
+        "Pelvic pain",
+        "Difficulty eating",
+        "Urinary symptoms",
+        "Fatigue",
+        "Weight loss",
+        "Back pain",
+        "Constipation",
+        "Menstrual changes"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., CA-125)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Targeted therapy",
+        "Immunotherapy",
+        "Hormone therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Infertility"
+      ]
+    },
+    {
+      "name": "Endometrial Cancer",
+      "description": "Cancer that begins in the cells lining the uterus.",
+      "symptoms": [
+        "Abnormal vaginal bleeding",
+        "Pelvic pain",
+        "Pain during intercourse",
+        "Pain during urination"
+      ],
+      "diagnosis": [
+        "Endometrial biopsy",
+        "Imaging studies (e.g., ultrasound, MRI)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Hormone therapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Infertility"
+      ]
+    },
+    {
+      "name": "Prostate Cancer",
+      "description": "Cancer that begins in the cells of the prostate gland.",
+      "symptoms": [
+        "Difficulty urinating",
+        "Frequent urination",
+        "Blood in urine",
+        "Blood in semen",
+        "Erectile dysfunction",
+        "Pain in the pelvic area",
+        "Bone pain"
+      ],
+      "diagnosis": [
+        "PSA test",
+        "Digital rectal exam",
+        "Biopsy",
+        "Imaging studies (e.g., ultrasound, MRI)"
+      ],
+      "treatment": [
+        "Surgery",
+        "Radiation therapy",
+        "Hormone therapy",
+        "Chemotherapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Erectile dysfunction",
+        "Urinary incontinence"
+      ]
+    },
+    {
+      "name": "Testicular Cancer",
+      "description": "Cancer that begins in the cells of the testicles.",
+      "symptoms": [
+        "Lump or swelling in the testicle",
+        "Pain or discomfort in the testicle or scrotum",
+        "Heaviness in the scrotum",
+        "Sudden collection of fluid in the scrotum",
+        "Back pain",
+        "Enlarged or tender breasts"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., alpha-fetoprotein, beta-hCG, LDH)",
+        "Imaging studies (e.g., ultrasound, CT scan)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Infertility",
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Bladder Cancer",
+      "description": "Cancer that begins in the cells lining the bladder.",
+      "symptoms": [
+        "Blood in urine",
+        "Pain during urination",
+        "Frequent urination",
+        "Urgent need to urinate",
+        "Pelvic pain"
+      ],
+      "diagnosis": [
+        "Urine tests",
+        "Imaging studies (e.g., CT scan, MRI, cystoscopy)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Urinary problems"
+      ]
+    },
+    {
+      "name": "Kidney Cancer",
+      "description": "Cancer that begins in the cells of the kidneys.",
+      "symptoms": [
+        "Blood in urine",
+        "Pain in the side or back",
+        "Lump or mass in the side or abdomen",
+        "Fatigue",
+        "Weight loss",
+        "Fever",
+        "Anemia"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Imaging studies (e.g., CT scan, MRI, ultrasound)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Kidney failure"
+      ]
+    },
+    {
+      "name": "Thyroid Cancer",
+      "description": "Cancer that begins in the cells of the thyroid gland.",
+      "symptoms": [
+        "Lump or swelling in the neck",
+        "Pain in the neck or throat",
+        "Hoarseness",
+        "Difficulty swallowing",
+        "Difficulty breathing",
+        "Cough"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., thyroid function tests)",
+        "Imaging studies (e.g., ultrasound, CT scan, MRI)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Radioactive iodine therapy",
+        "Hormone therapy",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Hypothyroidism"
+      ]
+    },
+    {
+      "name": "Melanoma",
+      "description": "A type of skin cancer that begins in melanocytes.",
+      "symptoms": [
+        "Change in an existing mole",
+        "Development of a new pigmented or unusual-looking growth on the skin",
+        "Change in sensation (e.g., itching, tenderness)",
+        "Change in the surface of a mole (e.g., scaling, oozing, bleeding)"
+      ],
+      "diagnosis": [
+        "Skin examination",
+        "Biopsy",
+        "Imaging studies (e.g., CT scan, PET scan)"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Immunotherapy",
+        "Targeted therapy",
+        "Radiation therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Basal Cell Carcinoma",
+      "description": "A type of skin cancer that begins in the basal cells of the skin.",
+      "symptoms": [
+        "Pearly or waxy bump",
+        "Flat, flesh-colored or brown scar-like lesion",
+        "Bleeding or scabbing sore that heals and returns"
+      ],
+      "diagnosis": [
+        "Skin examination",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Cryotherapy",
+        "Radiation therapy",
+        "Photodynamic therapy",
+        "Topical medications"
+      ],
+      "complications": [
+        "Recurrence",
+        "Spread to other areas (rare)"
+      ]
+    },
+    {
+      "name": "Squamous Cell Carcinoma",
+      "description": "A type of skin cancer that begins in the squamous cells of the skin.",
+      "symptoms": [
+        "Red, scaly patch",
+        "Open sore that bleeds or crusts",
+        "Raised growth with a central depression",
+        "Wart-like growth"
+      ],
+      "diagnosis": [
+        "Skin examination",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Surgery",
+        "Cryotherapy",
+        "Radiation therapy",
+        "Photodynamic therapy",
+        "Topical medications"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Lung Cancer",
+      "description": "Cancer that begins in the cells of the lungs.",
+      "symptoms": [
+        "Persistent cough",
+        "Chest pain",
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing up blood",
+        "Hoarseness",
+        "Weight loss",
+        "Bone pain",
+        "Headache"
+      ],
+      "diagnosis": [
+        "Imaging studies (e.g., CT scan, MRI, PET scan)",
+        "Biopsy",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy",
+        "Immunotherapy",
+        "Targeted therapy"
+      ],
+      "complications": [
+        "Spread to other organs",
+        "Recurrence",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Brain Tumor",
+      "description": "An abnormal growth of cells in the brain.",
+      "symptoms": [
+        "Headaches",
+        "Seizures",
+        "Memory problems",
+        "Personality changes",
+        "Weakness",
+        "Numbness",
+        "Vision problems",
+        "Speech difficulties",
+        "Balance problems"
+      ],
+      "diagnosis": [
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Biopsy",
+        "Neurological examination"
+      ],
+      "treatment": [
+        "Surgery",
+        "Radiation therapy",
+        "Chemotherapy",
+        "Targeted therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Neurological deficits",
+        "Seizures",
+        "Cognitive impairment",
+        "Recurrence"
+      ]
+    },
+    {
+      "name": "Osteoporosis",
+      "description": "A condition in which the bones become weak and brittle.",
+      "symptoms": [
+        "Back pain",
+        "Loss of height",
+        "Stooped posture",
+        "Bone fractures"
+      ],
+      "diagnosis": [
+        "Bone density test (e.g., DEXA scan)",
+        "Blood tests",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Medications (e.g., bisphosphonates, hormone replacement therapy, teriparatide)",
+        "Calcium and vitamin D supplements",
+        "Exercise",
+        "Lifestyle changes"
+      ],
+      "complications": [
+        "Bone fractures",
+        "Disability",
+        "Chronic pain"
+      ]
+    },
+    {
+      "name": "Fibromyalgia",
+      "description": "A disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory and mood issues.",
+      "symptoms": [
+        "Widespread pain",
+        "Fatigue",
+        "Sleep problems",
+        "Cognitive difficulties",
+        "Headaches",
+        "Irritable bowel syndrome",
+        "Morning stiffness",
+        "Numbness or tingling in hands and feet",
+        "Sensitivity to temperature changes"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Symptom assessment"
+      ],
+      "treatment": [
+        "Medications (e.g., pain relievers, antidepressants, anti-seizure drugs)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Counseling",
+        "Lifestyle changes"
+      ],
+      "complications": [
+        "Chronic pain",
+        "Depression",
+        "Anxiety",
+        "Sleep disorders"
+      ]
+    },
+    {
+      "name": "Ankylosing Spondylitis",
+      "description": "A type of arthritis that affects the spine, causing inflammation of the spinal joints.",
+      "symptoms": [
+        "Back pain",
+        "Stiffness",
+        "Fatigue",
+        "Loss of flexibility in the spine",
+        "Enthesitis",
+        "Eye inflammation",
+        "Bowel inflammation"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., HLA-B27)",
+        "Imaging studies (e.g., X-ray, MRI)"
+      ],
+      "treatment": [
+        "Medications (e.g., NSAIDs, TNF inhibitors, DMARDs)",
+        "Physical therapy",
+        "Exercise",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Spinal fusion",
+        "Disability",
+        "Chronic pain",
+        "Eye problems",
+        "Heart problems"
+      ]
+    },
+    {
+      "name": "Sjogren's Syndrome",
+      "description": "An autoimmune disease that affects the glands that make tears and saliva.",
+      "symptoms": [
+        "Dry eyes",
+        "Dry mouth",
+        "Fatigue",
+        "Joint pain",
+        "Swollen salivary glands",
+        "Dry skin",
+        "Vaginal dryness",
+        "Persistent dry cough"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., anti-SSA, anti-SSB antibodies)",
+        "Biopsy of salivary glands",
+        "Imaging studies (e.g., sialography)",
+        "Eye tests"
+      ],
+      "treatment": [
+        "Medications (e.g., artificial tears, saliva substitutes, immunosuppressants)",
+        "Supportive care",
+        "Lifestyle changes"
+      ],
+      "complications": [
+        "Dental cavities",
+        "Oral infections",
+        "Vision problems",
+        "Lymphoma"
+      ]
+    },
+    {
+      "name": "Scleroderma",
+      "description": "A group of rare diseases that involve the hardening and tightening of the skin and connective tissues.",
+      "symptoms": [
+        "Tight, hard skin",
+        "Raynaud's phenomenon",
+        "Joint pain",
+        "Swelling",
+        "Fatigue",
+        "Shortness of breath",
+        "Heartburn",
+        "Difficulty swallowing"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (e.g., antinuclear antibody test)",
+        "Imaging studies (e.g., CT scan, MRI)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., immunosuppressants, vasodilators)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Interstitial lung disease",
+        "Heart failure",
+        "Kidney failure",
+        "Digestive problems"
+      ]
+    },
+    {
+      "name": "Vasculitis",
+      "description": "Inflammation of the blood vessels.",
+      "symptoms": [
+        "Fever",
+        "Fatigue",
+        "Weight loss",
+        "Muscle and joint pain",
+        "Rash",
+        "Nerve problems",
+        "Shortness of breath",
+        "Cough",
+        "Abdominal pain"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., ANCA, anti-GBM antibodies)",
+        "Imaging studies (e.g., angiography, CT scan, MRI)",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., corticosteroids, immunosuppressants)",
+        "Supportive care"
+      ],
+      "complications": [
+        "Organ damage",
+        "Tissue death",
+        "Stroke",
+        "Heart attack",
+        "Kidney failure"
+      ]
+    },
+    {
+      "name": "Polymyalgia Rheumatica",
+      "description": "An inflammatory disorder that causes muscle pain and stiffness, often in the shoulders.",
+      "symptoms": [
+        "Pain and stiffness in the shoulders, neck, and hips",
+        "Fatigue",
+        "Fever",
+        "Weight loss",
+        "Malaise"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., erythrocyte sedimentation rate, C-reactive protein)",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Supportive care"
+      ],
+      "complications": [
+        "Giant cell arteritis",
+        "Vision loss",
+        "Stroke"
+      ]
+    },
+    {
+      "name": "Giant Cell Arteritis",
+      "description": "An inflammatory disease that affects the large and medium arteries, often involving the temporal arteries.",
+      "symptoms": [
+        "Headache",
+        "Scalp tenderness",
+        "Jaw pain",
+        "Vision problems",
+        "Fatigue",
+        "Fever",
+        "Weight loss"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., erythrocyte sedimentation rate, C-reactive protein)",
+        "Biopsy of temporal artery"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants",
+        "Supportive care"
+      ],
+      "complications": [
+        "Vision loss",
+        "Stroke",
+        "Aortic aneurysm"
+      ]
+    },
+    {
+      "name": "Behcet's Disease",
+      "description": "A rare disorder that causes inflammation in blood vessels throughout the body.",
+      "symptoms": [
+        "Mouth sores",
+        "Genital sores",
+        "Skin lesions",
+        "Joint pain",
+        "Eye inflammation",
+        "Fatigue",
+        "Fever",
+        "Headaches"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Imaging studies",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., corticosteroids, immunosuppressants)",
+        "Supportive care"
+      ],
+      "complications": [
+        "Blindness",
+        "Stroke",
+        "Blood clots",
+        "Aneurysms"
+      ]
+    },
+    {
+      "name": "Raynaud's Disease",
+      "description": "A condition that causes some areas of your body, such as fingers and toes, to feel numb and cold in response to cold temperatures or stress.",
+      "symptoms": [
+        "Cold fingers and toes",
+        "Numbness",
+        "Tingling",
+        "Color changes in the skin",
+        "Pain",
+        "Skin ulcers"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Nailfold capillaroscopy"
+      ],
+      "treatment": [
+        "Lifestyle changes",
+        "Medications (e.g., calcium channel blockers, alpha blockers)",
+        "Supportive care"
+      ],
+      "complications": [
+        "Skin ulcers",
+        "Gangrene",
+        "Amputation"
+      ]
+    },
+    {
+      "name": "Multiple Sclerosis",
+      "description": "A disease in which the immune system eats away at the protective covering of nerves.",
+      "symptoms": [
+        "Fatigue",
+        "Numbness or weakness",
+        "Tingling or pain",
+        "Blurred vision",
+        "Muscle spasms",
+        "Difficulty walking",
+        "Dizziness",
+        "Bladder and bowel problems"
+      ],
+      "diagnosis": [
+        "MRI",
+        "Spinal tap",
+        "Evoked potential tests",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Medications (e.g., disease-modifying therapies, corticosteroids)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Paralysis",
+        "Vision loss",
+        "Cognitive impairment",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Parkinson's Disease",
+      "description": "A progressive nervous system disorder that affects movement.",
+      "symptoms": [
+        "Tremor",
+        "Slowed movement",
+        "Rigid muscles",
+        "Impaired posture and balance",
+        "Loss of automatic movements",
+        "Speech changes",
+        "Writing changes"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Imaging studies (e.g., MRI, PET scan)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Medications (e.g., levodopa, dopamine agonists, MAO-B inhibitors)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Deep brain stimulation"
+      ],
+      "complications": [
+        "Cognitive problems",
+        "Depression",
+        "Emotional changes",
+        "Swallowing problems",
+        "Sleep disorders",
+        "Bladder problems"
+      ]
+    },
+    {
+      "name": "Huntington's Disease",
+      "description": "A progressive brain disorder that causes uncontrolled movements, emotional problems, and loss of thinking ability.",
+      "symptoms": [
+        "Uncontrolled movements",
+        "Emotional problems",
+        "Difficulty with thinking and memory",
+        "Weight loss",
+        "Trouble swallowing",
+        "Speech difficulties"
+      ],
+      "diagnosis": [
+        "Genetic testing",
+        "Clinical evaluation",
+        "Imaging studies (e.g., MRI)"
+      ],
+      "treatment": [
+        "Medications (e.g., tetrabenazine, antipsychotics)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Speech therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Progressive decline in cognitive and physical abilities",
+        "Difficulty swallowing",
+        "Infections",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Amyotrophic Lateral Sclerosis (ALS)",
+      "description": "A progressive neurodegenerative disease that affects nerve cells in the brain and spinal cord.",
+      "symptoms": [
+        "Muscle weakness",
+        "Muscle twitching",
+        "Difficulty speaking",
+        "Difficulty swallowing",
+        "Difficulty breathing",
+        "Paralysis"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Electromyography",
+        "Nerve conduction studies",
+        "Imaging studies (e.g., MRI)"
+      ],
+      "treatment": [
+        "Medications (e.g., riluzole, edaravone)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Speech therapy",
+        "Supportive care"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Difficulty swallowing",
+        "Speech difficulties",
+        "Paralysis"
+      ]
+    },
+    {
+      "name": "Epilepsy",
+      "description": "A central nervous system disorder in which nerve cell activity in the brain becomes disrupted, leading to seizures.",
+      "symptoms": [
+        "Seizures",
+        "Loss of consciousness",
+        "Confusion",
+        "Staring spells",
+        "Uncontrollable jerking movements",
+        "Loss of bladder control"
+      ],
+      "diagnosis": [
+        "Electroencephalogram (EEG)",
+        "Imaging studies (e.g., MRI, CT scan)",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Medications (e.g., antiepileptic drugs)",
+        "Surgery",
+        "Vagus nerve stimulation",
+        "Dietary therapy"
+      ],
+      "complications": [
+        "Injury during seizures",
+        "Status epilepticus",
+        "Sudden unexpected death in epilepsy (SUDEP)",
+        "Cognitive impairment"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "description": "A neurological condition that can cause multiple symptoms, characterized by intense, debilitating headaches.",
+      "symptoms": [
+        "Throbbing pain on one side of the head",
+        "Nausea",
+        "Vomiting",
+        "Sensitivity to light and sound",
+        "Aura (visual disturbances)",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Medical history",
+        "Imaging studies (e.g., MRI, CT scan)"
+      ],
+      "treatment": [
+        "Medications (e.g., pain relievers, triptans, ergot alkaloids, anti-nausea drugs)",
+        "Lifestyle changes",
+        "Preventive medications"
+      ],
+      "complications": [
+        "Chronic migraine",
+        "Medication overuse headache",
+        "Stroke",
+        "Mental health problems"
+      ]
+    },
+    {
+      "name": "Heart Failure",
+      "description": "A chronic condition in which the heart doesn't pump blood as well as it should.",
+      "symptoms": [
+        "Shortness of breath",
+        "Fatigue",
+        "Swelling in the legs, ankles, or feet",
+        "Rapid or irregular heartbeat",
+        "Reduced ability to exercise",
+        "Persistent cough or wheezing",
+        "Increased need to urinate at night",
+        "Swelling of the abdomen",
+        "Sudden weight gain",
+        "Lack of appetite",
+        "Nausea",
+        "Difficulty concentrating",
+        "Chest pain"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Echocardiogram",
+        "Electrocardiogram (ECG)",
+        "Chest X-ray",
+        "Stress test"
+      ],
+      "treatment": [
+        "Medications (e.g., ACE inhibitors, beta-blockers, diuretics, aldosterone antagonists)",
+        "Lifestyle changes",
+        "Implantable devices (e.g., ICD, CRT)",
+        "Heart transplant in severe cases"
+      ],
+      "complications": [
+        "Kidney damage or failure",
+        "Heart valve problems",
+        "Liver damage",
+        "Heart attack",
+        "Stroke"
+      ]
+    },
+    {
+      "name": "Coronary Artery Disease",
+      "description": "A condition in which plaque builds up inside the coronary arteries, which supply oxygen-rich blood to the heart muscle.",
+      "symptoms": [
+        "Chest pain (angina)",
+        "Shortness of breath",
+        "Fatigue",
+        "Heart attack"
+      ],
+      "diagnosis": [
+        "Electrocardiogram (ECG)",
+        "Echocardiogram",
+        "Stress test",
+        "Cardiac catheterization",
+        "CT coronary angiogram"
+      ],
+      "treatment": [
+        "Lifestyle changes (e.g., diet, exercise, smoking cessation)",
+        "Medications (e.g., statins, beta-blockers, nitrates, calcium channel blockers)",
+        "Procedures (e.g., angioplasty, stent placement, coronary artery bypass surgery)"
+      ],
+      "complications": [
+        "Heart attack",
+        "Heart failure",
+        "Arrhythmias",
+        "Sudden cardiac death"
+      ]
+    },
+    {
+      "name": "Arrhythmia",
+      "description": "A problem with the rate or rhythm of the heartbeat.",
+      "symptoms": [
+        "Fluttering in the chest",
+        "Racing heartbeat (tachycardia)",
+        "Slow heartbeat (bradycardia)",
+        "Chest pain",
+        "Shortness of breath",
+        "Dizziness",
+        "Fainting",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Electrocardiogram (ECG)",
+        "Holter monitor",
+        "Event monitor",
+        "Echocardiogram",
+        "Stress test"
+      ],
+      "treatment": [
+        "Medications (e.g., antiarrhythmic drugs, beta-blockers, calcium channel blockers)",
+        "Procedures (e.g., cardioversion, catheter ablation, implantable cardioverter-defibrillator)",
+        "Surgery (e.g., maze procedure)"
+      ],
+      "complications": [
+        "Stroke",
+        "Heart failure",
+        "Sudden cardiac death"
+      ]
+    },
+    {
+      "name": "Pericarditis",
+      "description": "Inflammation of the pericardium, the sac-like covering around the heart.",
+      "symptoms": [
+        "Sharp chest pain",
+        "Shortness of breath",
+        "Fever",
+        "Fatigue",
+        "Heart palpitations",
+        "Cough",
+        "Abdominal pain",
+        "Leg swelling"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Electrocardiogram (ECG)",
+        "Echocardiogram",
+        "Chest X-ray",
+        "CT scan or MRI"
+      ],
+      "treatment": [
+        "Medications (e.g., NSAIDs, colchicine, corticosteroids)",
+        "Rest",
+        "Supportive care"
+      ],
+      "complications": [
+        "Recurrent pericarditis",
+        "Constrictive pericarditis",
+        "Cardiac tamponade"
+      ]
+    },
+    {
+      "name": "Endocarditis",
+      "description": "An infection of the inner lining of the heart chambers and heart valves.",
+      "symptoms": [
+        "Fever",
+        "Chills",
+        "Night sweats",
+        "Fatigue",
+        "Muscle aches",
+        "Joint pain",
+        "Shortness of breath",
+        "Chest pain",
+        "Skin changes",
+        "Swelling in the legs or abdomen"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Echocardiogram",
+        "Blood cultures"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Heart failure",
+        "Stroke",
+        "Organ damage",
+        "Death"
+      ]
+    },
+    {
+      "name": "Myocarditis",
+      "description": "Inflammation of the heart muscle.",
+      "symptoms": [
+        "Chest pain",
+        "Fatigue",
+        "Shortness of breath",
+        "Rapid or abnormal heart rhythms",
+        "Lightheadedness",
+        "Fainting",
+        "Sudden cardiac death"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Echocardiogram",
+        "Electrocardiogram (ECG)",
+        "Cardiac MRI",
+        "Endomyocardial biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., corticosteroids, immunosuppressants)",
+        "Rest",
+        "Supportive care"
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Sudden cardiac death"
+      ]
+    },
+    {
+      "name": "Pulmonary Embolism",
+      "description": "A blockage in one of the pulmonary arteries in the lungs.",
+      "symptoms": [
+        "Shortness of breath",
+        "Chest pain",
+        "Cough",
+        "Rapid heart rate",
+        "Dizziness",
+        "Fainting",
+        "Leg pain or swelling"
+      ],
+      "diagnosis": [
+        "Blood tests (e.g., D-dimer)",
+        "Imaging studies (e.g., CT pulmonary angiogram, V/Q scan)",
+        "Duplex ultrasound"
+      ],
+      "treatment": [
+        "Anticoagulants",
+        "Thrombolytics",
+        "Supportive care"
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Heart failure",
+        "Death"
+      ]
+    },
+    {
+      "name": "Pulmonary Fibrosis",
+      "description": "A lung disease that occurs when lung tissue becomes damaged and scarred.",
+      "symptoms": [
+        "Shortness of breath",
+        "Dry cough",
+        "Fatigue",
+        "Weight loss",
+        "Chest discomfort",
+        "Clubbing of the fingers"
+      ],
+      "diagnosis": [
+        "Pulmonary function tests",
+        "Imaging studies (e.g., chest X-ray, CT scan)",
+        "Blood tests",
+        "Lung biopsy"
+      ],
+      "treatment": [
+        "Medications (e.g., pirfenidone, nintedanib)",
+        "Oxygen therapy",
+        "Pulmonary rehabilitation",
+        "Lung transplant in severe cases"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Pulmonary hypertension",
+        "Cor pulmonale",
+        "Death"
+      ]
+    },
+    {
+      "name": "Cystic Fibrosis",
+      "description": "An inherited disorder that causes severe damage to the lungs and digestive system.",
+      "symptoms": [
+        "Persistent cough with thick mucus",
+        "Wheezing",
+        "Shortness of breath",
+        "Frequent lung infections",
+        "Difficulty gaining weight",
+        "Frequent greasy stools",
+        "Salty-tasting skin"
+      ],
+      "diagnosis": [
+        "Sweat test",
+        "Genetic testing",
+        "Blood tests",
+        "Imaging studies (e.g., chest X-ray, CT scan)"
+      ],
+      "treatment": [
+        "Medications (e.g., antibiotics, bronchodilators, mucolytics)",
+        "Chest physical therapy",
+        "Nutritional support",
+        "Lung transplant in severe cases"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Bronchiectasis",
+        "Pneumothorax",
+        "Hemoptysis",
+        "Cor pulmonale",
+        "Liver disease",
+        "Diabetes"
+      ]
+    },
+    {
+      "name": "Sleep Apnea",
+      "description": "A serious sleep disorder in which breathing repeatedly stops and starts.",
+      "symptoms": [
+        "Loud snoring",
+        "Episodes of stopped breathing during sleep",
+        "Gasping for air during sleep",
+        "Morning headache",
+        "Excessive daytime sleepiness",
+        "Difficulty concentrating",
+        "Mood changes",
+        "High blood pressure",
+        "Nighttime sweating",
+        "Decreased libido"
+      ],
+      "diagnosis": [
+        "Polysomnography",
+        "Home sleep tests",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Continuous positive airway pressure (CPAP)",
+        "Oral appliances",
+        "Surgery",
+        "Lifestyle changes"
+      ],
+      "complications": [
+        "Heart problems",
+        "High blood pressure",
+        "Stroke",
+        "Diabetes",
+        "Depression",
+        "Headaches"
+      ]
+    },
+    {
+      "name": "Influenza",
+      "description": "A viral infection that attacks the respiratory system.",
+      "symptoms": [
+        "Fever",
+        "Chills",
+        "Muscle aches",
+        "Cough",
+        "Congestion",
+        "Runny nose",
+        "Headaches",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Rapid influenza diagnostic tests",
+        "Rapid molecular assays",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Antiviral medications",
+        "Rest",
+        "Fluids",
+        "Pain relievers",
+        "Vaccination for prevention"
+      ],
+      "complications": [
+        "Pneumonia",
+        "Bronchitis",
+        "Sinus infections",
+        "Ear infections",
+        "Dehydration",
+        "Worsening of chronic medical conditions"
+      ]
+    },
+    {
+      "name": "Pneumothorax",
+      "description": "A collapsed lung, which occurs when air leaks into the space between the lung and chest wall.",
+      "symptoms": [
+        "Sudden chest pain",
+        "Shortness of breath",
+        "Rapid heart rate",
+        "Rapid breathing",
+        "Cough",
+        "Fatigue"
+      ],
+      "diagnosis": [
+        "Chest X-ray",
+        "CT scan",
+        "Physical examination"
+      ],
+      "treatment": [
+        "Observation",
+        "Needle aspiration",
+        "Chest tube insertion",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Tension pneumothorax",
+        "Respiratory failure",
+        "Death"
+      ]
+    },
+    {
+      "name": "Pleural Effusion",
+      "description": "Excess fluid that accumulates in the pleural cavity, the fluid-filled space that surrounds the lungs.",
+      "symptoms": [
+        "Chest pain",
+        "Shortness of breath",
+        "Cough",
+        "Fever",
+        "Rapid breathing"
+      ],
+      "diagnosis": [
+        "Chest X-ray",
+        "CT scan",
+        "Thoracentesis",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Thoracentesis",
+        "Chest tube insertion",
+        "Pleurodesis",
+        "Treatment of underlying cause"
+      ],
+      "complications": [
+        "Empyema",
+        "Pneumonia",
+        "Respiratory failure"
+      ]
+    },
+    {
+      "name": "Pulmonary Hypertension",
+      "description": "A type of high blood pressure that affects the arteries in the lungs and the right side of the heart.",
+      "symptoms": [
+        "Shortness of breath",
+        "Fatigue",
+        "Dizziness",
+        "Chest pain",
+        "Racing pulse",
+        "Swelling in the ankles or legs",
+        "Bluish lips and skin",
+        "Fainting"
+      ],
+      "diagnosis": [
+        "Echocardiogram",
+        "Right heart catheterization",
+        "Blood tests",
+        "Imaging studies (e.g., chest X-ray, CT scan)"
+      ],
+      "treatment": [
+        "Medications (e.g., vasodilators, endothelin receptor antagonists, phosphodiesterase-5 inhibitors)",
+        "Oxygen therapy",
+        "Lifestyle changes",
+        "Surgery in severe cases"
+      ],
+      "complications": [
+        "Right-sided heart failure",
+        "Heart arrhythmias",
+        "Bleeding in the lungs",
+        "Death"
+      ]
+    },
+    {
+      "name": "Acute Respiratory Distress Syndrome (ARDS)",
+      "description": "A serious lung condition caused by injury to the tiny air sacs in the lungs.",
+      "symptoms": [
+        "Severe shortness of breath",
+        "Rapid breathing",
+        "Low blood oxygen levels",
+        "Rapid heart rate",
+        "Confusion",
+        "Extreme tiredness",
+        "Low blood pressure"
+      ],
+      "diagnosis": [
+        "Blood tests",
+        "Chest X-ray",
+        "CT scan",
+        "Arterial blood gas analysis"
+      ],
+      "treatment": [
+        "Mechanical ventilation",
+        "Oxygen therapy",
+        "Medications (e.g., corticosteroids, neuromuscular blockers)",
+        "Supportive care"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Multiple organ failure",
+        "Death"
+      ]
+    }
+  ]
+}

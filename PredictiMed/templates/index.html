@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Assistant Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Medical Assistant</h1>
+            <p class="subtitle">Ask me about diseases, symptoms, treatments, and health conditions</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="switchTab('chat')">Chat</button>
+            <button class="tab-button" onclick="switchTab('simplify')">Text Simplifier</button>
+        </div>
+
+        <div id="chat-tab" class="tab-content active">
+            <div id="chat-container">
+                <div class="message bot-message">
+                    Hello! I'm your medical assistant. How can I help you today? 
+                    <div class="message-info">You can ask me about diseases, symptoms, treatments, and other medical topics.</div>
+                </div>
+            </div>
+
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type your medical question here...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <div id="simplify-tab" class="tab-content">
+            <div class="simplifier-container">
+                <h2>Medical Text Simplifier</h2>
+                <p class="subtitle">Enter medical text to get a simplified version with explanations</p>
+                
+                <div class="input-section">
+                    <textarea id="medical-text" placeholder="Enter medical text here..."></textarea>
+                    <button onclick="simplifyText()">Simplify Text</button>
+                </div>
+
+                <div id="simplification-results" style="display: none;">
+                    <div class="result-section">
+                        <h3>Simplified Text</h3>
+                        <div id="simplified-text" class="result-box"></div>
+                    </div>
+
+                    <div class="result-section">
+                        <h3>Medical Terms Explained</h3>
+                        <div id="explanations" class="result-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <strong>⚠️ Important Disclaimer:</strong>
+            <p>This AI assistant provides general medical information for educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider.</p>
+            <p>For medical emergencies, please call emergency services immediately.</p>
+        </div>
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById('chat-container');
+        const userInput = document.getElementById('user-input');
+
+        function addMessage(message, isUser, sources = []) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            
+            // Convert line breaks to HTML breaks
+            const formattedMessage = message.replace(/\n/g, '<br>');
+            messageDiv.innerHTML = formattedMessage;
+
+            if (sources && sources.length > 0) {
+                const sourcesDiv = document.createElement('div');
+                sourcesDiv.className = 'message-info';
+                sourcesDiv.textContent = '📚 Sources: ' + sources.join(', ');
+                messageDiv.appendChild(sourcesDiv);
+            }
+
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function sendMessage() {
+            const message = userInput.value.trim();
+            if (message) {
+                addMessage(message, true);
+                userInput.value = '';
+                
+                // Add loading message
+                const loadingId = 'loading-' + Date.now();
+                addMessage('🔄 Thinking...', false);
+
+                fetch('http://localhost:5010/api/healthcare/answer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: message }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Remove loading message
+                    chatContainer.lastElementChild.remove();
+                    addMessage(data.answer, false, data.sources);
+                })
+                .catch(error => {
+                    // Remove loading message
+                    chatContainer.lastElementChild.remove();
+                    addMessage('❌ Error: ' + error, false);
+                });
+            }
+        }
+
+        userInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        function switchTab(tabName) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabName + '-tab').classList.add('active');
+            
+            // Update tab buttons
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        function simplifyText() {
+            const text = document.getElementById('medical-text').value.trim();
+            if (!text) {
+                alert('Please enter some text to simplify');
+                return;
+            }
+
+            // Show loading state
+            document.getElementById('simplification-results').style.display = 'none';
+            const loadingDiv = document.createElement('div');
+            loadingDiv.id = 'loading-simplify';
+            loadingDiv.className = 'loading';
+            loadingDiv.textContent = 'Simplifying text...';
+            document.querySelector('.simplifier-container').appendChild(loadingDiv);
+
+            fetch('http://localhost:5008/simplify', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ text: text }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Remove loading state
+                document.getElementById('loading-simplify').remove();
+                
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                // Display results
+                document.getElementById('simplified-text').innerHTML = data.simplified_text.replace(/\n/g, '<br>');
+                
+                const explanationsDiv = document.getElementById('explanations');
+                explanationsDiv.innerHTML = '';
+                data.explanations.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'explanation-item';
+                    div.innerHTML = `
+                        <strong>${item.term}:</strong>
+                        <p>${item.explanation}</p>
+                    `;
+                    explanationsDiv.appendChild(div);
+                });
+
+                document.getElementById('simplification-results').style.display = 'block';
+            })
+            .catch(error => {
+                document.getElementById('loading-simplify').remove();
+                alert('An error occurred while simplifying the text');
+            });
+        }
+    </script>
+</body>
+</html>

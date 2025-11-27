@@ -1,0 +1,10 @@
+transformers
+torch
+nltk
+scikit-learn
+numpy
+tqdm
+flask
+python-dotenv
+pandas
+sacremoses

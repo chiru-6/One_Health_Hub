@@ -1,0 +1,22 @@
+# Core dependencies
+flask
+flask-cors
+faiss-cpu
+langchain==0.1.11
+langchain-groq
+langchain-community==0.0.27
+langchain-core==0.1.28
+
+# API and networking
+requests
+
+# Data processing
+numpy
+pandas
+
+# Vector store
+pydantic
+
+# Additional utilities
+python-dotenv
+tqdm
