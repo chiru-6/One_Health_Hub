@@ -31,3 +31,7 @@ One Health Hub is a full-stack healthcare web application built during the **Adv
 - Node.js
 - MongoDB
 
+### Clone the Repository
+
+```bash
+git https://github.com/chiru-6/One_Health_Hub.git
